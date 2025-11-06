@@ -1,0 +1,372 @@
+# Skills Auto-Activation Metadata
+# 각 스킬의 자동 활성화를 위한 중앙 메타데이터 파일
+
+version: "1.0"
+last_updated: "2025-11-06"
+
+# Activation Settings
+activation_config:
+  mode: "suggest"  # suggest | auto
+  confidence_threshold: 0.7  # 기본 최소 신뢰도 점수
+  max_suggestions: 3  # 최대 추천 스킬 수
+  priority_multipliers:
+    high: 1.5
+    medium: 1.0
+    low: 0.7
+
+# Skills Metadata
+skills:
+  ai-persona-creator:
+    priority: high
+    description: "이해관계자 심리 분석 및 설득 전략을 위한 연구 기반 페르소나 생성"
+    keywords:
+      korean:
+        - 페르소나
+        - 이해관계자
+        - 심리분석
+        - 설득
+        - 협상
+        - 제안서
+        - 의사결정자
+        - CISO
+        - CFO
+        - CIO
+        - 임원
+      english:
+        - persona
+        - stakeholder
+        - psychology
+        - persuasion
+        - negotiation
+        - proposal
+        - decision maker
+        - executive
+    tags:
+      - business
+      - psychology
+      - strategy
+      - stakeholder-management
+    use_cases:
+      - "이해관계자 설득"
+      - "협상 준비"
+      - "제안서 작성"
+      - "의사결정자 분석"
+    auto_activate: true
+    confidence_threshold: 0.75
+
+  doc-organizer:
+    priority: medium
+    description: "Progressive Disclosure 원칙을 적용한 문서 구조 최적화로 95%+ 토큰 절감"
+    keywords:
+      korean:
+        - 문서정리
+        - 문서구조
+        - 토큰최적화
+        - 계층구조
+        - README
+        - 문서관리
+        - 파일정리
+        - 네이밍
+      english:
+        - documentation
+        - organize
+        - progressive disclosure
+        - token optimization
+        - hierarchical
+        - file organization
+        - naming convention
+    tags:
+      - documentation
+      - optimization
+      - structure
+      - technical
+    use_cases:
+      - "문서 혼란 정리"
+      - "토큰 최적화"
+      - "파일 재구성"
+      - "네이밍 규칙"
+    auto_activate: true
+    confidence_threshold: 0.7
+
+  market-strategy:
+    priority: high
+    description: "Toss의 16질문 프레임워크를 적용한 시장진입 및 PMF 전략 수립"
+    keywords:
+      korean:
+        - 시장진입
+        - 시장전략
+        - PMF
+        - 제품시장적합성
+        - 통점
+        - 트로이목마
+        - 차별화
+        - 확장전략
+        - 크로스셀
+        - 시장분석
+      english:
+        - market entry
+        - market strategy
+        - PMF
+        - product-market fit
+        - pain point
+        - trojan horse
+        - differentiation
+        - expansion
+        - cross-sell
+        - market analysis
+    tags:
+      - business
+      - strategy
+      - market-analysis
+      - product
+    use_cases:
+      - "시장 진입 계획"
+      - "PMF 설계"
+      - "통점 검증"
+      - "차별화 전략"
+    auto_activate: true
+    confidence_threshold: 0.75
+
+  roi-analyzer:
+    priority: high
+    description: "30분 안에 완성하는 임원 보고용 투자 수익률 분석 (수작업 4시간 대비)"
+    keywords:
+      korean:
+        - ROI
+        - 투자분석
+        - 재무분석
+        - 손익분기점
+        - 회수기간
+        - 임원보고
+        - 투자평가
+        - 예산승인
+        - 비용편익
+      english:
+        - ROI
+        - return on investment
+        - investment analysis
+        - financial analysis
+        - break-even
+        - payback period
+        - executive report
+        - cost-benefit
+    tags:
+      - financial
+      - analysis
+      - business
+      - executive-reporting
+    use_cases:
+      - "임원 보고"
+      - "투자 평가"
+      - "예산 승인"
+      - "재무 분석"
+    auto_activate: true
+    confidence_threshold: 0.8
+
+  template-generator:
+    priority: medium
+    description: "YAML frontmatter 기반 표준화된 문서 템플릿 생성 (6가지 유형)"
+    keywords:
+      korean:
+        - 템플릿
+        - 문서생성
+        - 표준화
+        - 기술명세
+        - 제안서
+        - 연구문서
+        - 보안QA
+        - YAML
+      english:
+        - template
+        - document generation
+        - standardization
+        - technical spec
+        - proposal
+        - research
+        - security QA
+        - YAML
+        - frontmatter
+    tags:
+      - documentation
+      - template
+      - standardization
+      - technical
+    use_cases:
+      - "새 문서 작성"
+      - "표준화"
+      - "전문적 포맷팅"
+      - "문서 템플릿"
+    auto_activate: true
+    confidence_threshold: 0.7
+
+  thinking-framework:
+    priority: high
+    description: "Divide & Conquer 기반 체계적 문제해결 프레임워크 (14가지 사고법)"
+    keywords:
+      korean:
+        - 문제해결
+        - 사고프레임워크
+        - 근본원인
+        - 전략계획
+        - 의사결정
+        - SWOT
+        - 5Why
+        - 제1원리
+        - 역사고
+        - 시스템사고
+        - 비판적사고
+        - 분석
+      english:
+        - problem-solving
+        - thinking framework
+        - root cause
+        - strategic planning
+        - decision-making
+        - SWOT
+        - 5 Why
+        - first principles
+        - backward thinking
+        - systems thinking
+        - critical thinking
+    tags:
+      - methodology
+      - problem-solving
+      - strategy
+      - decision-making
+    use_cases:
+      - "복잡한 문제 해결"
+      - "근본원인 분석"
+      - "전략적 의사결정"
+      - "체계적 접근"
+    auto_activate: true
+    confidence_threshold: 0.75
+
+  toss-patterns:
+    priority: high
+    description: "토스의 7가지 성공 패턴을 적용한 시장진입 및 PMF 달성 전략"
+    keywords:
+      korean:
+        - 토스
+        - 토스패턴
+        - 시장진입
+        - 통점
+        - 트로이목마
+        - 마찰제거
+        - 바이럴루프
+        - 생태계
+        - 규제대응
+        - 데이터기반
+        - 핀테크
+        - 분석
+      english:
+        - Toss
+        - market entry
+        - pain point
+        - trojan horse
+        - friction removal
+        - viral loop
+        - ecosystem
+        - regulation
+        - data-driven
+        - fintech
+    tags:
+      - business
+      - strategy
+      - market-entry
+      - product
+      - case-study
+    use_cases:
+      - "시장 진입"
+      - "제품 차별화"
+      - "PMF 달성"
+      - "확장 전략"
+    auto_activate: true
+    confidence_threshold: 0.75
+
+  web-research:
+    priority: medium
+    description: "신뢰성 있는 웹 리서치 수행 및 출처 표기 (4단계 프로세스)"
+    keywords:
+      korean:
+        - 리서치
+        - 조사
+        - 검색
+        - 경쟁사분석
+        - 시장조사
+        - 기술비교
+        - 신뢰성
+        - 출처
+        - 데이터수집
+      english:
+        - research
+        - investigate
+        - search
+        - competitor analysis
+        - market research
+        - technology comparison
+        - credibility
+        - sources
+        - data collection
+    tags:
+      - research
+      - analysis
+      - market-intelligence
+      - data
+    use_cases:
+      - "시장 조사"
+      - "기술 비교"
+      - "경쟁사 분석"
+      - "데이터 수집"
+    auto_activate: true
+    confidence_threshold: 0.7
+
+  skill-auto-activator:
+    priority: medium
+    description: "키워드 기반 자동 스킬 감지 및 활성화 시스템"
+    keywords:
+      korean:
+        - 스킬
+        - 자동화
+        - 활성화
+        - 메타데이터
+        - 키워드매칭
+        - 스킬추천
+        - 스킬관리
+        - 자동감지
+        - 인덱스
+      english:
+        - skill
+        - automation
+        - activation
+        - metadata
+        - keyword matching
+        - skill recommendation
+        - skill management
+        - auto-detection
+        - index
+    tags:
+      - automation
+      - system
+      - meta
+      - management
+    use_cases:
+      - "스킬 자동 추천"
+      - "스킬 관리"
+      - "메타데이터 관리"
+      - "키워드 매칭"
+    auto_activate: false  # 자기 자신은 자동 활성화하지 않음
+    confidence_threshold: 0.8
+
+# Keyword Priority Weights
+keyword_weights:
+  exact_match: 2.0      # 정확히 일치하는 키워드
+  compound_match: 1.8   # 복합어 일치 (2개 이상 키워드가 하나의 스킬 키워드에 포함)
+  partial_match: 1.0    # 부분 일치 키워드
+  tag_match: 0.5        # 태그 일치
+  use_case_match: 1.5   # 사용 사례 일치
+
+# Scoring Algorithm Notes
+# 최종 점수 = (키워드 매칭 점수 × 우선순위 배수) / 최대 가능 점수
+# - 키워드 매칭 점수: sum(keyword_weight × match_type_weight)
+# - 우선순위 배수: high=1.5, medium=1.0, low=0.7
+# - 신뢰도 임계값 이상 스킬만 추천

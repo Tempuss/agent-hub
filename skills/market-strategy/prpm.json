@@ -1,0 +1,22 @@
+{
+  "name": "market-strategy",
+  "version": "1.0.0",
+  "description": "Strategic market analysis framework for competitive positioning, market entry, and business strategy development",
+  "author": "Tempuss",
+  "license": "MIT",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "format": "claude",
+  "subtype": "skill",
+  "tags": [
+    "business-strategy",
+    "market-analysis",
+    "competitive-intelligence",
+    "strategic-planning",
+    "market-entry"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "REFERENCE.md"
+  ]
+}

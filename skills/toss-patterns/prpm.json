@@ -1,0 +1,22 @@
+{
+  "name": "toss-patterns",
+  "version": "1.0.0",
+  "description": "Toss-style product and business development patterns focusing on simplicity, user experience, and rapid iteration",
+  "author": "Tempuss",
+  "license": "MIT",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "format": "claude",
+  "subtype": "skill",
+  "tags": [
+    "product-development",
+    "user-experience",
+    "toss-patterns",
+    "simplicity",
+    "rapid-iteration"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "REFERENCE.md"
+  ]
+}

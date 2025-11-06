@@ -1,0 +1,20 @@
+{
+  "name": "template-generator",
+  "version": "1.0.0",
+  "description": "Dynamic template generation system for creating reusable document and code templates",
+  "author": "Tempuss",
+  "license": "MIT",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "format": "claude",
+  "subtype": "skill",
+  "tags": [
+    "templates",
+    "generation",
+    "automation",
+    "productivity",
+    "boilerplate"
+  ],
+  "files": [
+    "SKILL.md"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "doc-organizer",
+  "version": "1.0.0",
+  "description": "Intelligent documentation organization and structure management for knowledge bases and project documentation",
+  "author": "Tempuss",
+  "license": "MIT",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "format": "claude",
+  "subtype": "skill",
+  "tags": [
+    "documentation",
+    "organization",
+    "knowledge-management",
+    "structure",
+    "productivity"
+  ],
+  "files": [
+    "SKILL.md"
+  ]
+}

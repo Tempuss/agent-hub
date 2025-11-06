@@ -1,0 +1,19 @@
+{
+  "name": "agent-hub",
+  "version": "1.0.0",
+  "description": "Comprehensive collection of Claude Code skills for productivity, business strategy, research, and development",
+  "author": "Tempuss",
+  "license": "MIT",
+  "format": "multi-package",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "packages": [
+    "skills/ai-persona-creator/prpm.json",
+    "skills/thinking-framework/prpm.json",
+    "skills/web-research/prpm.json",
+    "skills/doc-organizer/prpm.json",
+    "skills/template-generator/prpm.json",
+    "skills/market-strategy/prpm.json",
+    "skills/roi-analyzer/prpm.json",
+    "skills/toss-patterns/prpm.json"
+  ]
+}

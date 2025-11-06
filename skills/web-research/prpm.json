@@ -1,0 +1,24 @@
+{
+  "name": "web-research",
+  "version": "1.0.0",
+  "description": "Comprehensive web research framework with source credibility assessment, and structured investigation workflows",
+  "author": "Tempuss",
+  "license": "MIT",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "format": "claude",
+  "subtype": "skill",
+  "tags": [
+    "research",
+    "web-search",
+    "verification",
+    "source-credibility",
+    "information-gathering"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "REFERENCE.md",
+    "SOURCE-CREDIBILITY-GUIDE.md",
+    "WEB-RESEARCH-UTILIZATION-GUIDE.md"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "thinking-framework",
+  "version": "1.0.0",
+  "description": "Systematic problem-solving using 14 proven thinking methodologies - 5 Why, SWOT, First Principles, Design Thinking, TRIZ, SCAMPER, Pareto, PDCA, DMAIC, and more",
+  "author": "Tempuss",
+  "license": "MIT",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "format": "claude",
+  "subtype": "skill",
+  "tags": [
+    "problem-solving",
+    "thinking-methods",
+    "root-cause-analysis",
+    "strategic-planning",
+    "innovation",
+    "decision-making",
+    "process-improvement",
+    "systematic-thinking",
+    "cognitive-framework"
+  ],
+  "files": [
+    "README.md",
+    "GUIDE.md",
+    "SKILL.md",
+    "reference/INDEX.md",
+    "reference/5-why.md",
+    "reference/design-thinking.md",
+    "reference/dialectic.md",
+    "reference/dmaic.md",
+    "reference/first-principles.md",
+    "reference/fishbone.md",
+    "reference/gap-analysis.md",
+    "reference/kepner-tregoe.md",
+    "reference/ooda-loop.md",
+    "reference/pareto.md",
+    "reference/pdca.md",
+    "reference/scamper.md",
+    "reference/swot.md",
+    "reference/triz.md"
+  ]
+}

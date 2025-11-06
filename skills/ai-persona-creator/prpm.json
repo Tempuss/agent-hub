@@ -1,0 +1,36 @@
+{
+  "name": "ai-persona-creator",
+  "version": "1.0.0",
+  "description": "Use when analyzing stakeholder psychology for negotiations, proposals, or persuasion. Creates research-backed personas revealing hidden motivations through 7 psychological frameworks (Kahneman, Cialdini, Voss, Navarro, Ariely, Evolution, Organization).",
+  "author": "Tempuss",
+  "license": "MIT",
+  "repository": "https://github.com/Tempuss/agent-hub",
+  "format": "claude",
+  "subtype": "skill",
+  "tags": [
+    "psychology",
+    "persona",
+    "negotiation",
+    "persuasion",
+    "stakeholder-analysis",
+    "research",
+    "kahneman",
+    "cialdini",
+    "behavioral-psychology"
+  ],
+  "files": [
+    "SKILL.md",
+    "REFERENCE.md",
+    "EXAMPLES.md",
+    "README.md",
+    "frameworks/00_integration.md",
+    "frameworks/01_kahneman.md",
+    "frameworks/02_cialdini.md",
+    "frameworks/03_voss.md",
+    "frameworks/04_navarro.md",
+    "frameworks/05_ariely.md",
+    "frameworks/06_evolution.md",
+    "frameworks/07_organization.md",
+    "templates/persona-prompt.md"
+  ]
+}
