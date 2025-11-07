@@ -1,479 +1,479 @@
-# Thinking + Research Framework - 실용적 사용 가이드
+# Thinking + Research Framework - Practical Usage Guide
 
-> 증거 기반 체계적 문제 해결을 위한 단계별 실행 지침
+> Step-by-step execution guide for evidence-based systematic problem solving
 
 ---
 
-## 🎯 이 가이드를 읽기 전에
+## 🎯 Before Reading This Guide
 
 **Quick Navigation**:
-- 빠른 시작만 원하시나요? → [5분 빠른 시작](#-5분-빠른-시작)
-- 실제 사례를 보고 싶으신가요? → [실제 사용 사례](#-실제-사용-사례)
-- 신뢰도를 계산하는 방법이 궁금하신가요? → [신뢰도 점수 계산](#-신뢰도-점수-계산)
+- Want just a quick start? → [5-Minute Quick Start](#-5-minute-quick-start)
+- Want to see real examples? → [Real-World Case Studies](#-real-world-case-studies)
+- Curious about confidence calculation? → [Confidence Score Calculation](#-confidence-score-calculation)
 
 ---
 
-## 🚀 5분 빠른 시작
+## 🚀 5-Minute Quick Start
 
-### Step 1: 문제 정의 (5분)
+### Step 1: Problem Definition (5 minutes)
 
-**가장 중요한 단계** - 여기서 실패하면 모든 시간이 낭비됩니다.
-
-```
-Q1: 정확한 문제가 무엇인가? (증상 vs 근본 원인 구분)
-Q2: 왜 이것이 문제인가? (비즈니스 영향도)
-Q3: 성공은 무엇처럼 보이는가? (측정 기준)
-```
-
-**예시**:
-- ❌ 문제: "우리 앱이 느리다"
-- ✅ 문제: "사용자 온보딩 이후 이탈율이 8% (업계 평균 3%)"
-
-### Step 2: 사고법 선택 (2분)
-
-thinking-framework의 어떤 방법을 사용할지 선택:
-
-| 상황 | 추천 사고법 |
-|------|-----------|
-| "왜 이런 일이 일어났나?" | 5 Why / Fishbone |
-| "어떻게 혁신할 수 있나?" | SCAMPER / First Principles |
-| "전략은 무엇인가?" | SWOT / GAP Analysis |
-| "어떻게 개선할 수 있나?" | Pareto / PDCA |
-| "빠르게 결정해야 한다" | OODA Loop |
-
-### Step 3: 사고법 적용 (10-30분)
-
-선택한 사고법의 단계별 프로세스를 따릅니다.
-(각 방법의 상세 가이드는 `reference/` 디렉토리 참조)
-
-**예시 - Pareto 분석**:
-```
-1. 데이터 수집: 고객 이탈 원인별 분류
-2. 순위 정렬: 영향도 내림차순
-3. 80/20 규칙 적용: 상위 20%가 80%의 이탈을 설명
-4. 우선순위 결정: 상위 2-3개 원인에 집중
-```
-
-### Step 4: 연구 계획 (선택사항, 5-15분)
-
-만약 신뢰도를 높이고 싶다면, 증거를 수집합니다:
+**Most critical step** - if you fail here, you waste all your time.
 
 ```
-Q1: 어떤 정보가 필요한가?
-Q2: 신뢰할 수 있는 출처는 어디인가?
-Q3: 얼마나 시간을 들일 수 있는가?
+Q1: What is the exact problem? (distinguish symptom vs root cause)
+Q2: Why is this a problem? (business impact)
+Q3: What does success look like? (measurement criteria)
 ```
 
-**연구 출처 등급**:
-- **Tier 1 (신뢰도 90%)**: 공식 문서, 학술 논문, 정부 자료
-- **Tier 2 (신뢰도 70%)**: 업계 리포트, 전문가 기사, 신뢰할 수 있는 매체
-- **Tier 3 (신뢰도 50%)**: 커뮤니티 자료, 사용자 경험담
-- **Tier 4 (신뢰도 30%)**: 소셜 미디어, 검증되지 않은 출처
+**Examples**:
+- ❌ Problem: "Our app is slow"
+- ✅ Problem: "User churn after onboarding is 8% (industry average 3%)"
 
-### Step 5: 신뢰도 계산 (5분)
+### Step 2: Select Thinking Method (2 minutes)
 
+Choose which method from thinking-framework to use:
+
+| Situation | Recommended Method |
+|-----------|---|
+| "Why did this happen?" | 5 Why / Fishbone |
+| "How can we innovate?" | SCAMPER / First Principles |
+| "What's the strategy?" | SWOT / GAP Analysis |
+| "How can we improve?" | Pareto / PDCA |
+| "Need to decide quickly" | OODA Loop |
+
+### Step 3: Apply Thinking Method (10-30 minutes)
+
+Follow the step-by-step process of your chosen thinking method.
+(See `reference/` directory for detailed guides for each method)
+
+**Example - Pareto Analysis**:
 ```
-신뢰도 = 방법 신뢰도 × 증거 신뢰도
-
-예시:
-- Pareto 분석 정확도: 85% (잘 증명된 방법)
-- 우리가 수집한 증거 신뢰도: 75% (Tier 1-2 출처 혼합)
-- 최종 신뢰도: 85% × 75% = 64%
-
-해석:
-- 60% 이상 = 충분히 신뢰 가능한 결정
-- 70% 이상 = 높은 신뢰 가능 결정
-- 80% 이상 = 매우 높은 신뢰도
-```
-
-### Step 6: 실행 (계속 진행)
-
-```
-신뢰도 64%로 상위 2개 이탈 원인 개선에 집중
-→ A/B 테스트로 실제 효과 측정
-→ 결과로 다음 사고 사이클 개선
-```
-
----
-
-## 💡 실제 사용 사례
-
-### Case 1: 스타트업의 자금 부족 위기
-
-**상황**: 3개월 남은 런웨이, 경로가 불명확
-
-**Step 1 - 문제 정의**:
-```
-문제: 현금 부족이 아니라 "명확한 매출 경로의 부재"
-성공 기준: 3개월 내 MRR $50K 달성
+1. Data collection: Categorize churn reasons
+2. Sort by priority: Descending by impact
+3. Apply 80/20 rule: Top 20% explain 80% of churn
+4. Prioritize: Focus on top 2-3 reasons
 ```
 
-**Step 2 - 사고법 선택**: SWOT + GAP Analysis
+### Step 4: Research Planning (Optional, 5-15 minutes)
 
-**Step 3 - SWOT 분석**:
-```
-강점: 탁월한 기술, 열정적인 팀
-약점: 판매 프로세스 부재, 높은 번율
-기회: 시장 연 40% 성장
-위협: 자금이 풍부한 경쟁사
-```
+If you want to increase confidence, gather evidence:
 
-**Step 4 - 연구 (선택사항)**:
 ```
-Q: 우리 시장 세그먼트의 일반적 판매 주기는?
-Q: 경쟁사들의 GTM 전략은?
-Q: 파트너십 기회는?
-
-출처 찾기: 산업 리포트, 경쟁사 분석, 업계 컨퍼런스
+Q1: What information do we need?
+Q2: Where are trustworthy sources?
+Q3: How much time can we invest?
 ```
 
-**Step 5 - 신뢰도 계산**:
-```
-- SWOT 방법 신뢰도: 75% (잘 구조화되었지만 주관적)
-- 우리 수집 증거: 80% (Tier 1-2 출처, 현장 경험)
-- 최종 신뢰도: 75% × 80% = 60%
+**Research Source Tiers**:
+- **Tier 1 (90% confidence)**: Official documents, academic papers, government data
+- **Tier 2 (70% confidence)**: Industry reports, expert articles, trusted media
+- **Tier 3 (50% confidence)**: Community resources, user testimonials
+- **Tier 4 (30% confidence)**: Social media, unverified sources
 
-결론: 충분히 신뢰할 수 있는 전략
-```
+### Step 5: Calculate Confidence (5 minutes)
 
-**Step 6 - 실행 계획**:
 ```
-1. 파트너십 5개 파일럿 (60일)
-2. 브릿지 펀딩 모금 (45일)
-3. 내부 판매팀 구축 (90일)
-```
+Confidence = Method Credibility × Evidence Quality
 
-### Case 2: 고객 이탈 문제 해결
+Example:
+- Pareto analysis accuracy: 85% (well-proven method)
+- Our collected evidence: 75% (mix of Tier 1-2 sources)
+- Final confidence: 85% × 75% = 64%
 
-**상황**: 이탈율 8% (업계 평균 3%)
-
-**Step 1 - 문제 정의**:
-```
-문제: 온보딩 후 1주일 내 이탈 집중
-성공 기준: 이탈율을 5% 이하로 감소
+Interpretation:
+- 60% or above = Sufficiently trustworthy decision
+- 70% or above = High-confidence decision
+- 80% or above = Very high confidence
 ```
 
-**Step 2 - 사고법 선택**: Pareto 분석
+### Step 6: Execute (Keep Going)
 
-**Step 3 - 데이터 분석**:
 ```
-원인별 이탈:
-- 온보딩 어려움: 450건 (45%)
-- 기능 부족: 280건 (28%)
-- 고객 지원 미흡: 120건 (12%)
-- 기타: 150건 (15%)
-
-80/20 적용:
-상위 2개 = 73%의 이탈
-→ 온보딩 + 기능 개선에 집중
-```
-
-**Step 4 - 연구**:
-```
-Q: 다른 회사들의 온보딩 개선 성과는?
-Q: 업계 벤치마크는?
-
-출처: 케이스 스터디, SaaS 분석 리포트
-```
-
-**Step 5 - 신뢰도**:
-```
-- Pareto 정확도: 90% (데이터 기반)
-- 증거 신뢰도: 85% (다수의 Tier 1-2 사례)
-- 최종 신뢰도: 90% × 85% = 76.5%
-
-높은 신뢰도 → 자신감 있게 투자 가능
-```
-
-**Step 6 - 실행**:
-```
-온보딩 개선:
-- 비디오 튜토리얼 추가 (2주)
-- 라이브 온보딩 세션 (1주일)
-- 예제 프로젝트 제공 (3주)
-
-→ 3주 후 측정 → 결과 기반 다음 단계
+With 64% confidence, focus on improving top 2 churn reasons
+→ Measure actual impact with A/B testing
+→ Refine next thinking cycle based on results
 ```
 
 ---
 
-## 📊 신뢰도 점수 계산
+## 💡 Real-World Case Studies
 
-### 계산 공식
+### Case 1: Startup Funding Crisis
+
+**Situation**: 3 months of runway left, path unclear
+
+**Step 1 - Problem Definition**:
+```
+Problem: Not lack of cash, but "absence of clear revenue path"
+Success metric: Achieve $50K MRR within 3 months
+```
+
+**Step 2 - Select Thinking Method**: SWOT + GAP Analysis
+
+**Step 3 - SWOT Analysis**:
+```
+Strengths: Exceptional technology, passionate team
+Weaknesses: No sales process, high burn rate
+Opportunities: Market growing 40% annually
+Threats: Well-funded competitors
+```
+
+**Step 4 - Research (Optional)**:
+```
+Q: What's the typical sales cycle for our market segment?
+Q: What's competitors' GTM strategy?
+Q: What partnership opportunities exist?
+
+Sources: Industry reports, competitor analysis, industry conferences
+```
+
+**Step 5 - Calculate Confidence**:
+```
+- SWOT method credibility: 75% (well-structured but subjective)
+- Evidence we collected: 80% (mix of Tier 1-2 sources, field experience)
+- Final confidence: 75% × 80% = 60%
+
+Conclusion: Sufficiently trustworthy strategy
+```
+
+**Step 6 - Execution Plan**:
+```
+1. Pilot 5 partnerships (60 days)
+2. Raise bridge funding (45 days)
+3. Build internal sales team (90 days)
+```
+
+### Case 2: Solving Customer Churn
+
+**Situation**: Churn rate 8% (industry average 3%)
+
+**Step 1 - Problem Definition**:
+```
+Problem: Heavy churn concentrated within 1 week of onboarding
+Success metric: Reduce churn to 5% or below
+```
+
+**Step 2 - Select Thinking Method**: Pareto Analysis
+
+**Step 3 - Data Analysis**:
+```
+Churn by reason:
+- Onboarding difficulty: 450 (45%)
+- Missing features: 280 (28%)
+- Poor customer support: 120 (12%)
+- Other: 150 (15%)
+
+Apply 80/20:
+Top 2 reasons = 73% of churn
+→ Focus on onboarding + feature improvements
+```
+
+**Step 4 - Research**:
+```
+Q: What improvement results do other companies see from onboarding fixes?
+Q: What are industry benchmarks?
+
+Sources: Case studies, SaaS analysis reports
+```
+
+**Step 5 - Calculate Confidence**:
+```
+- Pareto accuracy: 90% (data-driven)
+- Evidence credibility: 85% (multiple Tier 1-2 case studies)
+- Final confidence: 90% × 85% = 76.5%
+
+High confidence → Confident to invest
+```
+
+**Step 6 - Execution**:
+```
+Improve onboarding:
+- Add video tutorials (2 weeks)
+- Run live onboarding sessions (1 week)
+- Provide example projects (3 weeks)
+
+→ Measure after 3 weeks → Plan next steps based on results
+```
+
+---
+
+## 📊 Confidence Score Calculation
+
+### Calculation Formula
 
 ```
-신뢰도 = 방법 신뢰도 × 증거 신뢰도 × 상황 적합도
+Confidence = Method Credibility × Evidence Quality × Contextual Fit
 ```
 
-### 각 요소별 점수 방법
+### Scoring Each Component
 
-#### 1️⃣ 방법 신뢰도 (Method Credibility)
+#### 1️⃣ Method Credibility
 
-| 사고법 | 신뢰도 | 이유 |
+| Thinking Method | Credibility | Rationale |
 |------|-------|------|
-| 5 Why / Fishbone | 90% | 매우 체계적, 수십 년 증명됨 |
-| SWOT | 75% | 잘 알려짐, 하지만 주관적일 수 있음 |
-| Pareto | 90% | 데이터 기반, 통계적 근거 |
-| SCAMPER | 80% | 창의성을 자극하지만 산발적 |
-| First Principles | 85% | 논리적이지만 시간 소모 |
-| OODA Loop | 85% | 동적 환경에 증명됨 |
+| 5 Why / Fishbone | 90% | Highly systematic, proven for decades |
+| SWOT | 75% | Well-known but can be subjective |
+| Pareto | 90% | Data-driven with statistical basis |
+| SCAMPER | 80% | Stimulates creativity but scattered results |
+| First Principles | 85% | Logical but time-consuming |
+| OODA Loop | 85% | Proven in dynamic environments |
 
-#### 2️⃣ 증거 신뢰도 (Evidence Quality)
+#### 2️⃣ Evidence Quality
 
-**출처별 점수**:
+**Score by Source Type**:
 ```
-Tier 1 (학술/공식): 90%
-- 학술 논문
-- 정부 자료
-- 회사 공식 발표
+Tier 1 (Academic/Official): 90%
+- Academic papers
+- Government data
+- Official company announcements
 
-Tier 2 (전문가/신뢰 매체): 70%
-- 업계 리포트
-- 저명한 전문가 기사
-- 신뢰할 수 있는 신문/매체
+Tier 2 (Expert/Trusted Media): 70%
+- Industry reports
+- Articles by recognized experts
+- Trusted publications/media
 
-Tier 3 (커뮤니티): 50%
-- 사용자 포럼
-- 블로그 게시물
-- 업계 컨퍼런스 발표
+Tier 3 (Community): 50%
+- User forums
+- Blog posts
+- Industry conference presentations
 
-Tier 4 (소셜/미검증): 20%
-- 트위터/소셜 미디어
-- 댓글 섹션
-- 검증되지 않은 주장
-```
-
-**여러 출처의 평균**:
-```
-예시: 3개 출처 수집
-- 학술 논문: 90%
-- 업계 리포트: 70%
-- 전문가 블로그: 70%
-
-평균 증거 신뢰도 = (90 + 70 + 70) / 3 = 76.7%
+Tier 4 (Social/Unverified): 20%
+- Twitter/social media
+- Comment sections
+- Unverified claims
 ```
 
-#### 3️⃣ 상황 적합도 (Contextual Fit)
-
+**Averaging Multiple Sources**:
 ```
-100% = 모든 조건 충족
-- 시간 충분
-- 리소스 충분
-- 문제 유형이 사고법과 정확히 일치
+Example: 3 sources collected
+- Academic paper: 90%
+- Industry report: 70%
+- Expert blog: 70%
 
-70% = 일부 조건 미충족
-- 시간 부족하지만 수행 가능
-- 리소스 제약 있음
-- 문제가 대체로 맞음
-
-40% = 여러 조건 미충족
-- 시간 부족
-- 리소스 최소한
-- 문제가 부분적으로만 맞음
+Average evidence credibility = (90 + 70 + 70) / 3 = 76.7%
 ```
 
-### 신뢰도 해석
+#### 3️⃣ Contextual Fit
 
 ```
-최종 신뢰도 점수:
+100% = All conditions met
+- Sufficient time
+- Sufficient resources
+- Problem type matches thinking method perfectly
 
-80% 이상: 매우 높은 신뢰도
-- 자신감 있게 major decision 실행
-- 장기 전략에 사용
-- 큰 리소스 투입 정당화
+70% = Some conditions not met
+- Time limited but feasible
+- Resource constraints present
+- Problem mostly aligns
 
-60-79%: 중간-높은 신뢰도
-- 합리적인 결정 가능
-- MVP 또는 파일럿으로 검증
-- 점진적 실행
+40% = Multiple conditions not met
+- Time severely limited
+- Minimal resources
+- Problem partially aligns
+```
 
-40-59%: 중간 신뢰도
-- 방향성은 맞지만 불확실성 있음
-- 작은 규모로 테스트
-- 정보 부족 영역 파악 후 연구 추가
+### Confidence Interpretation
 
-0-39%: 낮은 신뢰도
-- 결정 연기 권장
-- 더 많은 연구/정보 필요
-- 전문가 상담 고려
+```
+Final Confidence Score:
+
+80% or higher: Very high confidence
+- Execute major decisions with confidence
+- Use for long-term strategy
+- Justify large resource investment
+
+60-79%: Medium-high confidence
+- Reasonable to make decision
+- Validate with MVP or pilot
+- Implement progressively
+
+40-59%: Medium confidence
+- Direction is sound but uncertainty remains
+- Test at small scale
+- Identify information gaps and conduct additional research
+
+0-39%: Low confidence
+- Recommend delaying decision
+- Need more research/information
+- Consider expert consultation
 ```
 
 ---
 
-## 🔄 통합 워크플로우
+## 🔄 Integrated Workflow
 
-### 사고법 + 연구 통합 프로세스
+### Thinking Method + Research Integration Process
 
 ```mermaid
-1. 문제 정의 (30-60분)
+1. Problem Definition (30-60 min)
    ↓
-2. 사고법 선택 및 적용 (20-60분)
+2. Select and Apply Thinking Method (20-60 min)
    ↓
-3. 초기 분석 결과 도출
+3. Generate Initial Analysis Results
    ↓
-4. [신뢰도 평가]
-   ├─ 80% 이상? → Step 6 (즉시 실행)
-   ├─ 60-79%? → Step 5 (조사 추가)
-   └─ 60% 미만? → Step 5 (광범위 연구)
+4. [Confidence Assessment]
+   ├─ 80% or above? → Step 6 (Execute immediately)
+   ├─ 60-79%? → Step 5 (Add investigation)
+   └─ Below 60%? → Step 5 (Conduct comprehensive research)
    ↓
-5. [필요 시] 연구 계획 및 실행 (1-7일)
-   - 핵심 가정 검증
-   - 벤치마크 데이터 수집
-   - 사례 연구 분석
+5. [When needed] Research Planning & Execution (1-7 days)
+   - Validate core assumptions
+   - Collect benchmark data
+   - Analyze case studies
    ↓
-6. 신뢰도 재계산
+6. Recalculate Confidence
    ↓
-7. 실행 계획 및 의사결정
+7. Create Execution Plan & Make Decision
    ↓
-8. 결과 측정 및 학습
+8. Measure Results & Learn
 ```
 
-### 시간대별 패턴
+### Time-Based Patterns
 
-**패턴 1: 빠른 의사결정 (1-2시간)**
+**Pattern 1: Quick Decision-Making (1-2 hours)**
 ```
-적합한 경우: 분기별 기능 우선순위, 작은 결정
-- 문제 정의: 10분
-- 사고법 적용: 30분
-- 신뢰도 평가: 5분
-- 결정: 15분
-- 연구: 최소화 (내부 데이터만 사용)
-```
-
-**패턴 2: 전략적 의사결정 (1-3일)**
-```
-적합한 경우: 새로운 시장 진입, 사업 전략 수립
-- 문제 정의: 60분
-- 사고법 적용 (SWOT+GAP): 2시간
-- 연구 (targeted): 6-12시간
-- 신뢰도 계산: 30분
-- 최종 의사결정: 1시간
+Suitable for: Quarterly feature prioritization, small decisions
+- Problem definition: 10 min
+- Apply thinking method: 30 min
+- Confidence assessment: 5 min
+- Decision: 15 min
+- Research: Minimal (internal data only)
 ```
 
-**패턴 3: 혁신/문제 해결 (3-7일)**
+**Pattern 2: Strategic Decision-Making (1-3 days)**
 ```
-적합한 경우: 신제품 개발, 주요 문제 해결
-- 문제 정의: 2시간
-- 사고법 적용 (Design Thinking + First Principles): 8시간
-- 연구 (포괄적): 16-24시간
-- 사용자 연구: 8-16시간
-- 신뢰도 계산: 1시간
-- 정제 및 계획: 2시간
+Suitable for: Market entry, business strategy development
+- Problem definition: 60 min
+- Apply thinking method (SWOT+GAP): 2 hours
+- Research (targeted): 6-12 hours
+- Confidence calculation: 30 min
+- Final decision-making: 1 hour
+```
+
+**Pattern 3: Innovation/Problem Solving (3-7 days)**
+```
+Suitable for: New product development, major problem solving
+- Problem definition: 2 hours
+- Apply thinking method (Design Thinking + First Principles): 8 hours
+- Research (comprehensive): 16-24 hours
+- User research: 8-16 hours
+- Confidence calculation: 1 hour
+- Refinement & planning: 2 hours
 ```
 
 ---
 
-## ⚠️ 흔한 실수와 해결책
+## ⚠️ Common Mistakes and Solutions
 
-### 실수 1: 문제 정의 스킵하기
+### Mistake 1: Skipping Problem Definition
 
-❌ **증상**:
+❌ **Symptom**:
 ```
-"이건 명확한 문제야. 지금 당장 분석해"
-→ 완벽하게 분석했는데 문제가 아니었음
-```
-
-✅ **해결책**:
-```
-문제 정의에 30-60분을 투자
-- 증상 vs 근본 원인 구분
-- 이해관계자 인터뷰
-- 성공 기준 정의
+"This is clearly a problem. Let me analyze it right now"
+→ Conducted perfect analysis, but it wasn't the real problem
 ```
 
-### 실수 2: 오소드 신뢰도만 신뢰하기
-
-❌ **증상**:
+✅ **Solution**:
 ```
-내부 데이터만 분석 (신뢰도 40%)
-→ 현실과 맞지 않는 결정
-```
-
-✅ **해결책**:
-```
-Tier 1-2 외부 증거 추가
-- 업계 벤치마크
-- 경쟁사 사례
-- 전문가 자료
+Invest 30-60 minutes in problem definition
+- Distinguish symptom from root cause
+- Interview stakeholders
+- Define success criteria
 ```
 
-### 실수 3: 사고법-문제 유형 불일치
+### Mistake 2: Trusting Only Internal Confidence
 
-❌ **증상**:
+❌ **Symptom**:
 ```
-혁신 문제에 DMAIC 적용 (0% 성공률)
-→ 창의성 억압, 결과 없음
-```
-
-✅ **해결책**:
-```
-문제 유형과 사고법 일치:
-- 혁신 → SCAMPER/First Principles
-- 개선 → PDCA/Pareto
-- 분석 → 5Why/Fishbone
+Analyzing only internal data (confidence 40%)
+→ Decision disconnected from reality
 ```
 
-### 실수 4: 신뢰도 계산 스킵하기
+✅ **Solution**:
+```
+Add Tier 1-2 external evidence
+- Industry benchmarks
+- Competitor case studies
+- Expert resources
+```
 
-❌ **증상**:
+### Mistake 3: Misalignment Between Thinking Method and Problem Type
+
+❌ **Symptom**:
 ```
-"분석했으니 이제 실행"
-→ 잘못된 가정으로 시간/비용 낭비
+Applying DMAIC to innovation problem (0% success rate)
+→ Stifles creativity, produces no results
 ```
 
-✅ **해결책**:
+✅ **Solution**:
 ```
-신뢰도 점수로 실행 규모 결정:
-- 80% 이상: 전사 규모 실행
-- 60-79%: MVP/파일럿
-- 60% 미만: 추가 연구 필요
+Match problem type with appropriate thinking method:
+- Innovation → SCAMPER/First Principles
+- Improvement → PDCA/Pareto
+- Analysis → 5Why/Fishbone
+```
+
+### Mistake 4: Skipping Confidence Calculation
+
+❌ **Symptom**:
+```
+"We analyzed it, now let's execute"
+→ Wasted time and money on faulty assumptions
+```
+
+✅ **Solution**:
+```
+Use confidence score to determine execution scale:
+- 80% or above: Full-scale execution
+- 60-79%: MVP/Pilot
+- Below 60%: Additional research needed
 ```
 
 ---
 
-## 🎯 빠른 참조 가이드
+## 🎯 Quick Reference Guide
 
-### 의사결정 트리
+### Decision Tree
 
 ```
-문제가 있는가?
+Do you have a problem?
 │
-├─ 명확한 문제가 아닌가?
-│  └─ → 문제 정의 먼저!
+├─ Unclear what the problem is?
+│  └─ → Start with problem definition!
 │
-├─ "왜?"라고 묻고 싶은가?
+├─ Asking "Why?"
 │  └─ → 5 Why / Fishbone
 │
-├─ "어떻게 다를 수 있나?"
+├─ Asking "How could we be different?"
 │  └─ → SCAMPER / First Principles
 │
-├─ "전략은?"
+├─ Asking "What's the strategy?"
 │  └─ → SWOT + GAP Analysis
 │
-├─ "어떻게 개선하나?"
+├─ Asking "How do we improve?"
 │  └─ → Pareto / PDCA
 │
-└─ "빠르게 결정?"
+└─ Need to decide quickly?
    └─ → OODA Loop
 ```
 
-### 시간별 투자 가이드
+### Time Investment Guide
 
-| 의사결정 중요도 | 추천 시간 | 권장 방법 |
+| Decision Importance | Recommended Time | Recommended Method |
 |-------------|---------|---------|
-| 낮음 (작은 최적화) | 30분 | 빠른 분석만 |
-| 중간 (분기별 전략) | 2-4시간 | 사고법 + 내부 데이터 |
-| 높음 (사업 방향) | 1-2일 | 사고법 + 조사 |
-| 매우 높음 (장기 전략) | 3-7일 | 사고법 + 광범위 연구 |
+| Low (small optimization) | 30 min | Quick analysis only |
+| Medium (quarterly strategy) | 2-4 hours | Thinking method + internal data |
+| High (business direction) | 1-2 days | Thinking method + research |
+| Very high (long-term strategy) | 3-7 days | Thinking method + comprehensive research |
 
 ---
 
-## 📖 다음 단계
+## 📖 Next Steps
 
-1. **[reference/research-tips.md](reference/research-tips.md)** - 사고법별 연구 팁
-2. **[templates/](templates/)** - 실제 적용 가능한 워크시트
-3. **[examples/](examples/)** - 4개의 상세한 실제 사례
-4. **[confidence-scoring.md](reference/confidence-scoring.md)** - 신뢰도 계산 상세 가이드
+1. **[reference/research-tips.md](reference/research-tips.md)** - Research tips by thinking method
+2. **[templates/](templates/)** - Practical, reusable worksheets
+3. **[examples/](examples/)** - 4 detailed real-world case studies
+4. **[confidence-scoring.md](reference/confidence-scoring.md)** - Detailed confidence calculation guide
 
 ---
 

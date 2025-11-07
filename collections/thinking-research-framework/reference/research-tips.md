@@ -1,474 +1,474 @@
-# 사고법별 연구 팁 (Research Tips by Thinking Method)
+# Research Tips by Thinking Method
 
-각 사고법별로 증거를 효과적으로 수집하는 방법
-
----
-
-## 🔍 근본원인 분석 (Root Cause Analysis)
-
-### 5 Why 연구 전략
-
-**목표**: 각 "왜"의 단계별로 근거 찾기
-
-**연구 대상**:
-```
-Why 1 (증상): 내부 데이터 (우리가 관찰한 사실)
-Why 2 (원인): 시스템 로그, 메트릭
-Why 3-4 (깊이): 업계 사례, 전문가 자료
-Why 5 (근본): 원칙, 이론, 벤치마크
-```
-
-**추천 출처**:
-- **Tier 1**: 우리의 실제 데이터, 내부 로그
-- **Tier 2**: 경쟁사 사례 분석, 업계 리포트
-- **Tier 3**: 포럼 토론, 기술 블로그
-
-**예시**: API 응답 시간 느림
-```
-Why 1: 데이터베이스 쿼리 1800ms
-  → 증거: 우리의 APM 도구 데이터
-
-Why 2: 전체 테이블 스캔 발생
-  → 증거: 쿼리 실행 계획 분석
-
-Why 3: 인덱스 누락
-  → 증거: 마이그레이션 체크리스트 재검토
-
-Why 4: 성능 테스트 부재
-  → 증거: 다른 회사의 성공 사례 (Tier 2)
-
-Why 5: 배포 프로세스 미흡
-  → 증거: DevOps 모범 사례 문서 (Tier 1)
-```
+How to effectively collect evidence for each thinking method
 
 ---
 
-### Fishbone 연구 전략
+## 🔍 Root Cause Analysis
 
-**목표**: 6가지 카테고리별로 근거 수집
+### 5 Why Research Strategy
 
-**각 카테고리별 연구 대상**:
+**Goal**: Find evidence at each level of "Why"
 
+**Research Targets**:
 ```
-1. 사람 (People)
-   └─ 연구: 팀 역량, 교육 수준, 업계 기준
-      출처: HR 데이터, 교육 리포트
-
-2. 프로세스 (Process)
-   └─ 연구: 워크플로우, 체크리스트, 모범 사례
-      출처: 내부 문서, 업계 표준
-
-3. 기술 (Technology)
-   └─ 연구: 도구 선택, 설정, 버전
-      출처: 공식 문서, 기술 블로그
-
-4. 재료 (Materials)
-   └─ 연구: 데이터 품질, 라이브러리, 의존성
-      출처: 우리 인벤토리, 벤더 가이드
-
-5. 환경 (Environment)
-   └─ 연구: 시스템 리소스, 인프라, 네트워크
-      출처: 모니터링 도구, 시스템 로그
-
-6. 측정 (Measurement)
-   └─ 연구: 메트릭 정의, 모니터링, 알람
-      출처: 우리 대시보드, 산업 표준
+Why 1 (Symptom): Internal data (what we observe)
+Why 2 (Cause): System logs, metrics
+Why 3-4 (Depth): Industry cases, expert resources
+Why 5 (Root): Principles, theories, benchmarks
 ```
 
-**우선순위**: 영향도가 높은 카테고리부터 연구
+**Recommended Sources**:
+- **Tier 1**: Our actual data, internal logs
+- **Tier 2**: Competitor case analysis, industry reports
+- **Tier 3**: Forum discussions, technical blogs
 
----
-
-## 💡 혁신 (Innovation)
-
-### SCAMPER 연구 전략
-
-**목표**: 각 변형 방식별 사례 찾기
-
-**각 질문별 연구**:
-
+**Example**: Slow API response time
 ```
-S (Substitute - 대체):
-  Q: 다른 산업에서 유사한 것을 다르게 하나?
-  연구: 인접 산업 사례, 혁신 케이스
+Why 1: Database query takes 1800ms
+  → Evidence: Our APM tool data
 
-C (Combine - 결합):
-  Q: 유사 기능을 결합한 제품이 있나?
-  연구: 통합 제품 분석, 기능 조합 사례
+Why 2: Full table scan occurring
+  → Evidence: Query execution plan analysis
 
-A (Adapt - 적응):
-  Q: 다른 맥락에서 성공한 것이 있나?
-  연구: 크로스 산업 사례, 지역별 사례
+Why 3: Missing index
+  → Evidence: Migration checklist review
 
-M (Modify - 수정):
-  Q: 속성을 변경하면 어떻게 될까?
-  연구: 변형 제품 성과, A/B 테스트 결과
+Why 4: No performance testing
+  → Evidence: Other companies' success cases (Tier 2)
 
-P (Put to another use - 다른 용도):
-  Q: 다른 용도로 사용한 사례가 있나?
-  연구: 사용자 창의 사용 예, 피봇 사례
-
-E (Eliminate - 제거):
-  Q: 핵심 기능 없이도 작동하나?
-  연구: 최소 기능 제품(MVP) 성공 사례
-
-R (Reverse - 역전):
-  Q: 반대로 하면 어떻게 될까?
-  연구: 역발상 제품, 시장 반응
-```
-
-**추천 연구 출처**:
-- **Tier 1**: 공식 시장 분석, 학술 논문
-- **Tier 2**: 성공한 스타트업 블로그, 업계 케이스
-- **Tier 3**: Product Hunt, 사용자 리뷰
-
----
-
-### First Principles 연구 전략
-
-**목표**: 기본 가정을 검증하는 증거 찾기
-
-**프로세스**:
-
-```
-1. 핵심 가정 파악
-   연구: 우리 가정이 보편적인가?
-   출처: 산업 표준, 과학 자료
-
-2. 각 가정 검증
-   연구: 실제로 그런가? 대안은?
-   출처: 학술 논문, 실험 데이터
-
-3. 근본 원칙 확인
-   연구: 물리법칙/경제법칙은?
-   출처: 교과서, 과학 논문
-
-4. 재구성
-   연구: 이렇게 재구성한 사례
-   출처: 파괴적 혁신 사례
-```
-
-**예시**: "자동차는 반드시 휘발유를 사용해야 한다"
-
-```
-가정 1: 에너지가 필요하다 → 확인됨 (에너지 물리학)
-가정 2: 휘발유만 가능하다 → 잘못됨
-  증거: 전기차, 수소차 실용화 (테슬라, 도요타)
-
-재구성: 에너지 저장 매체 다양화 → 전기차 혁신
+Why 5: Inadequate deployment process
+  → Evidence: DevOps best practices documents (Tier 1)
 ```
 
 ---
 
-## 🎯 전략적 계획 (Strategic Planning)
+### Fishbone Research Strategy
 
-### SWOT 연구 전략
+**Goal**: Collect evidence across 6 categories
 
-**각 요소별 연구 깊이**:
+**Research by Category**:
 
 ```
-강점 (Strengths):
-├─ 내부 증거: 재무, 기술 자료
-└─ 외부 검증: 고객 피드백, 경쟁사 분석
+1. People
+   └─ Research: Team capabilities, education level, industry standards
+      Sources: HR data, training reports
 
-약점 (Weaknesses):
-├─ 내부 진단: 우리 평가
-└─ 외부 벤치마크: 경쟁사, 업계 표준
+2. Process
+   └─ Research: Workflows, checklists, best practices
+      Sources: Internal documents, industry standards
 
-기회 (Opportunities):
-├─ 시장 조사: 시장 규모, 성장률
-└─ 트렌드: 기술, 소비자 행동 변화
+3. Technology
+   └─ Research: Tool selection, configuration, versions
+      Sources: Official documentation, technical blogs
 
-위협 (Threats):
-├─ 경쟁사 분석: 경쟁사 전략, 시장 진입
-└─ 외부 요인: 규제, 경제 변화
+4. Materials
+   └─ Research: Data quality, libraries, dependencies
+      Sources: Our inventory, vendor guides
+
+5. Environment
+   └─ Research: System resources, infrastructure, network
+      Sources: Monitoring tools, system logs
+
+6. Measurement
+   └─ Research: Metrics definition, monitoring, alerts
+      Sources: Our dashboards, industry standards
 ```
 
-**신뢰도 높은 SWOT 만드는 법**:
-
-1. **강점/약점**: 데이터 기반 (내부 메트릭)
-2. **기회**: 시장 조사 (Tier 1-2 리포트)
-3. **위협**: 경쟁사 분석 (공개 정보 + 업계 리포트)
-
-**피해야 할 것**:
-- ❌ 주관적 의견만 (근거 없음)
-- ❌ 과거 자료 (트렌드 미반영)
-- ❌ 한 출처만 (검증 부족)
+**Priority**: Investigate high-impact categories first
 
 ---
 
-### GAP Analysis 연구 전략
+## 💡 Innovation
 
-**목표**: 현재 → 목표 상태의 거리를 정량화
+### SCAMPER Research Strategy
+
+**Goal**: Find examples for each modification approach
+
+**Research by Question**:
 
 ```
-현재 상태 측정:
-├─ 내부 데이터 (우리 메트릭)
-└─ 외부 벤치마크 (경쟁사, 업계)
+S (Substitute - Replace):
+  Q: How do similar things work differently in other industries?
+  Research: Adjacent industry cases, innovation examples
 
-목표 상태 설정:
-├─ 시장 조사 (달성 가능한 수준)
-└─ 비전 (우리의 야망)
+C (Combine - Combine):
+  Q: Are there products that combine similar features?
+  Research: Integrated product analysis, feature combination cases
 
-갭 분석:
-├─ 능력 갭: 기술/인력 부족
-├─ 자원 갭: 예산/시간 부족
-└─ 프로세스 갭: 방법론 변화 필요
+A (Adapt - Adapt):
+  Q: What has succeeded in different contexts?
+  Research: Cross-industry cases, regional examples
+
+M (Modify - Modify):
+  Q: What happens when you change attributes?
+  Research: Modified product performance, A/B test results
+
+P (Put to another use - Different use):
+  Q: Are there examples of using this differently?
+  Research: Creative user examples, pivot cases
+
+E (Eliminate - Remove):
+  Q: Can it work without core features?
+  Research: Minimum viable product (MVP) success cases
+
+R (Reverse - Reverse):
+  Q: What happens if you reverse it?
+  Research: Reverse-engineering products, market reactions
 ```
 
-**연구 우선순위**:
-1. 우리 현재 정확한 측정
-2. 경쟁사/업계 벤치마크
-3. 최고 성과자(best-in-class) 사례
+**Recommended Research Sources**:
+- **Tier 1**: Official market analysis, academic papers
+- **Tier 2**: Successful startup blogs, industry cases
+- **Tier 3**: Product Hunt, user reviews
 
 ---
 
-## ⚙️ 프로세스 개선 (Process Improvement)
+### First Principles Research Strategy
 
-### Pareto 연구 전략
+**Goal**: Find evidence to validate fundamental assumptions
 
-**목표**: 80/20 원칙을 데이터로 검증
-
-**프로세스**:
+**Process**:
 
 ```
-1. 데이터 수집
-   └─ 현재 상태 정확한 측정 (내부 데이터)
+1. Identify core assumptions
+   Research: Are our assumptions universal?
+   Sources: Industry standards, scientific materials
 
-2. 분류 및 정렬
-   └─ 영향도 기준 정렬
+2. Validate each assumption
+   Research: Is this actually true? What are alternatives?
+   Sources: Academic papers, experimental data
 
-3. 누적 퍼센트 계산
-   └─ 상위 20% 확인
+3. Confirm fundamental principles
+   Research: What are the physical/economic laws?
+   Sources: Textbooks, scientific papers
 
-4. 벤치마크 비교
-   └─ 업계 기준과 비교 (Tier 2 데이터)
-
-5. 개선 사례 연구
-   └─ 다른 회사의 개선 결과 (Tier 2-3 사례)
+4. Reconstruct
+   Research: Examples of reconstructing this way
+   Sources: Disruptive innovation cases
 ```
 
-**신뢰도 높은 Pareto**:
-- ✅ 최소 1개월 이상의 데이터
-- ✅ 충분한 표본 (최소 100개 사건)
-- ✅ 외부 벤치마크로 검증
-- ❌ 주관적 분류
-- ❌ 부족한 데이터
-
-**예시**: 고객 만족도 개선
+**Example**: "Cars must run on gasoline"
 
 ```
-불만 유형별 빈도:
-- 응답 느림: 45% ← Pareto 상위 20%에 포함
-- 정보 부정확: 28% ← Pareto 상위 20%에 포함
-- 고객 지원 무례함: 12%
-- 기타: 15%
+Assumption 1: Energy is required → Confirmed (energy physics)
+Assumption 2: Only gasoline works → False
+  Evidence: Electric vehicles, hydrogen cars in practical use (Tesla, Toyota)
 
-상위 2개 = 73% 해결 가능
-→ 이 두 영역에 리소스 집중
-
-벤치마크: 유사 회사가 유사 개선으로 30% 이탈 감소
-→ 우리도 유사 수준 기대 가능
-```
-
----
-
-### PDCA 연구 전략
-
-**각 단계별 증거 수집**:
-
-```
-Plan (계획):
-├─ 근거: 과거 데이터, 업계 사례
-├─ 가설: 이걸 개선하면 X% 향상될 것
-└─ 연구: 비슷한 개선 사례
-
-Do (실행):
-├─ 측정: 정확한 데이터 수집
-└─ 기록: 상세한 로그 기록
-
-Check (검증):
-├─ 비교: 계획 vs 실제
-├─ 원인 분석: 왜 그 차이가 났나?
-└─ 외부 확인: 벤치마크로 우리 결과 검증
-
-Act (개선):
-├─ 조정: 계획 수정
-├─ 확대: 성공한 부분 일반화
-└─ 학습: 다음 사이클에 반영
-```
-
-**신뢰도 높은 PDCA**:
-- 최소 2-3 사이클 (단기 운이 아님을 확인)
-- 외부 벤치마크와 비교
-- 정성적 + 정량적 증거 모두 수집
-
----
-
-## ⚡ 의사결정 (Decision Making)
-
-### OODA Loop 연구 전략
-
-**빠른 의사결정 + 증거 균형**:
-
-```
-Observe (관찰):
-├─ 실시간 데이터 (1차 정보)
-└─ 시간 제약: 최소한의 필수 정보만
-
-Orient (지향):
-├─ 경험 기반 판단
-└─ 과거 유사 상황 (빠른 인출)
-
-Decide (결정):
-├─ 70% 정보로 결정 (완벽을 기다리지 않음)
-└─ 위험 계산: 결정 지연 vs 불완전한 결정
-
-Act (실행):
-├─ 빠른 실행
-└─ 지속적 모니터링
-```
-
-**OODA에서의 연구**:
-- 사전 준비: 업계 표준, 경험 축적
-- 관찰 중: 실시간 데이터만 (속도 중시)
-- 결과 검증: 이후 깊은 분석
-
----
-
-### Kepner-Tregoe 연구 전략
-
-**목표**: 체계적 의사결정을 위한 증거 기반 분석
-
-```
-문제 분석:
-├─ 무엇이 문제인가?
-├─ 어디서 발생하는가?
-├─ 언제 발생하는가?
-└─ 연구: 객관적 사실 (문헌, 데이터)
-
-원인 분석:
-├─ 가능한 원인들 나열
-├─ 각 원인의 가능성 평가
-└─ 연구: 과학적 증거
-
-의사결정 분석:
-├─ 가능한 선택지
-├─ 각 선택의 장단점
-├─ 위험 평가
-└─ 연구: 사례 분석, 벤치마크
-```
-
-**신뢰도 높은 Kepner-Tregoe**:
-- Tier 1 문제 분석 (사실만)
-- Tier 2 원인 분석 (시험/검증)
-- Tier 1-2 의사결정 (사례/벤치마크)
-
----
-
-## 🤝 통합 (Synthesis)
-
-### Dialectic 연구 전략
-
-**목표**: 대립하는 두 관점 모두 검증
-
-```
-Thesis (주장):
-└─ 연구: A 입장의 근거
-
-Antithesis (반박):
-└─ 연구: B 입장의 근거
-
-Synthesis (통합):
-└─ 연구: 두 관점을 통합한 사례
-   (역사적 사례, 조직 변화 사례 등)
-```
-
-**예시**: 혁신 vs 안정성
-
-```
-Thesis: "빠른 혁신이 성장의 핵심"
-  증거: 테슬라, 아마존 등 빠른 혁신 기업
-
-Antithesis: "안정성과 품질이 중요"
-  증거: 도요타 품질 철학, 안전-중심 항공사
-
-Synthesis: "혁신과 안정성의 균형"
-  증거: 아마존 - 빠름 + 안정성
-         도요타 - 혁신 + 품질 우선순위 설정
+Reconstruction: Diversity of energy storage media → Electric vehicle innovation
 ```
 
 ---
 
-## 📊 정보 출처 가이드
+## 🎯 Strategic Planning
 
-### 효율적 연구 계획
+### SWOT Research Strategy
 
-**시간대별 연구 깊이**:
+**Research Depth by Element**:
 
 ```
-30분 연구:
-├─ 내부 데이터 (필수)
-└─ 1-2개 온라인 리소스
+Strengths:
+├─ Internal evidence: Financial, technical data
+└─ External validation: Customer feedback, competitive analysis
 
-2시간 연구:
-├─ 내부 분석
-├─ 3-5개 Tier 2 출처
-└─ 1개 Tier 1 자료
+Weaknesses:
+├─ Internal assessment: Our evaluation
+└─ External benchmark: Competitors, industry standards
 
-1일 연구:
-├─ 깊은 내부 분석
-├─ 10+ 출처 (다양한 관점)
-├─ Tier 1-2 자료
-└─ 전문가 인터뷰
+Opportunities:
+├─ Market research: Market size, growth rate
+└─ Trends: Technology, consumer behavior changes
+
+Threats:
+├─ Competitor analysis: Competitor strategy, market entry
+└─ External factors: Regulation, economic changes
 ```
 
-### 출처별 최고 신뢰도 정보
+**How to Build High-Credibility SWOT**:
 
-**Tier 1 출처에서 찾을 수 있는 정보**:
+1. **Strengths/Weaknesses**: Data-driven (internal metrics)
+2. **Opportunities**: Market research (Tier 1-2 reports)
+3. **Threats**: Competitor analysis (public information + industry reports)
+
+**What to Avoid**:
+- ❌ Subjective opinions only (no evidence)
+- ❌ Outdated materials (doesn't reflect trends)
+- ❌ Single source only (insufficient verification)
+
+---
+
+### GAP Analysis Research Strategy
+
+**Goal**: Quantify the distance from current → desired state
+
 ```
-학술 논문 → 원칙, 이론, 과학적 증거
-정부 자료 → 시장 규모, 규제, 통계
-공식 문서 → 기술 사양, 벤더 벤치마크
-공식 발표 → 회사 실적, 전략
+Current State Measurement:
+├─ Internal data (our metrics)
+└─ External benchmark (competitors, industry)
+
+Target State Setting:
+├─ Market research (achievable level)
+└─ Vision (our ambitions)
+
+Gap Analysis:
+├─ Capability gap: Technology/talent shortage
+├─ Resource gap: Budget/time shortage
+└─ Process gap: Methodology changes needed
 ```
 
-**Tier 2 출처에서 찾을 수 있는 정보**:
+**Research Priorities**:
+1. Accurate measurement of our current state
+2. Competitor/industry benchmarks
+3. Best-in-class examples
+
+---
+
+## ⚙️ Process Improvement
+
+### Pareto Research Strategy
+
+**Goal**: Validate the 80/20 principle with data
+
+**Process**:
+
 ```
-업계 리포트 → 시장 분석, 트렌드
-전문가 블로그 → 사례 분석, 실전 경험
-신뢰 매체 → 뉴스, 심층 리포트
-컨퍼런스 → 최신 트렌드, 사례
+1. Data collection
+   └─ Accurate measurement of current state (internal data)
+
+2. Classification and sorting
+   └─ Sort by impact
+
+3. Calculate cumulative percentage
+   └─ Identify top 20%
+
+4. Benchmark comparison
+   └─ Compare with industry standards (Tier 2 data)
+
+5. Study improvement cases
+   └─ Other companies' improvement results (Tier 2-3 cases)
 ```
 
-**Tier 3-4 출처에서 찾을 수 있는 정보**:
+**High-Confidence Pareto**:
+- ✅ Minimum 1+ month of data
+- ✅ Sufficient sample size (minimum 100 incidents)
+- ✅ Validation with external benchmarks
+- ❌ Subjective categorization
+- ❌ Insufficient data
+
+**Example**: Customer satisfaction improvement
+
 ```
-사용자 포럼 → 실제 사용 경험, 문제
-소셜 미디어 → 실시간 반응, 감정
-블로그/댓글 → 다양한 관점, 의견
+Complaint frequency by type:
+- Slow response: 45% ← Top 20% in Pareto
+- Inaccurate information: 28% ← Top 20% in Pareto
+- Rude customer support: 12%
+- Other: 15%
+
+Top 2 = 73% can be resolved
+→ Concentrate resources on these two areas
+
+Benchmark: Similar companies reduced churn by 30% through similar improvements
+→ We can expect similar results
 ```
 
 ---
 
-## 🎯 연구 효율성 팁
+### PDCA Research Strategy
 
-### 조사할 때의 체크리스트
+**Evidence Collection by Stage**:
 
 ```
-[ ] 시간 제약이 명확한가?
-[ ] 필요한 정보가 구체적인가?
-[ ] 출처 신뢰도 기준이 있는가?
-[ ] 내부/외부 정보 비율이 적절한가?
-[ ] 여러 관점을 수집했는가?
-[ ] 상충하는 정보를 검증했는가?
+Plan (Plan):
+├─ Evidence: Historical data, industry cases
+├─ Hypothesis: Improving this will result in X% improvement
+└─ Research: Similar improvement cases
+
+Do (Execute):
+├─ Measurement: Accurate data collection
+└─ Record: Detailed logging
+
+Check (Verify):
+├─ Comparison: Plan vs actual
+├─ Root cause analysis: Why the difference?
+└─ External verification: Validate our results with benchmarks
+
+Act (Improve):
+├─ Adjust: Revise the plan
+├─ Scale: Generalize successful areas
+└─ Learn: Reflect for next cycle
 ```
 
-### 빠른 리서치를 위한 팁
+**High-Confidence PDCA**:
+- Minimum 2-3 cycles (confirm it's not short-term luck)
+- Comparison with external benchmarks
+- Both qualitative and quantitative evidence
 
-1. **구체적인 질문**: "시장이 크나?" (X) vs "우리 세그먼트 시장은? (O)
-2. **출처 우선순위**: Tier 1 먼저 찾기 (신뢰도 높음)
-3. **빠른 검증**: 최소 2개 출처로 교차 확인
-4. **충분히는 좋음**: 완벽할 필요 없음, 신뢰도 60% 이상이면 결정 가능
+---
+
+## ⚡ Decision Making
+
+### OODA Loop Research Strategy
+
+**Fast Decision-Making + Evidence Balance**:
+
+```
+Observe (Observe):
+├─ Real-time data (primary information)
+└─ Time constraint: Only essential information
+
+Orient (Orient):
+├─ Experience-based judgment
+└─ Similar past situations (quick retrieval)
+
+Decide (Decide):
+├─ Decide with 70% information (don't wait for perfection)
+└─ Risk calculation: Decision delay vs incomplete decision
+
+Act (Act):
+├─ Fast execution
+└─ Continuous monitoring
+```
+
+**Research in OODA**:
+- Pre-preparation: Industry standards, experience accumulation
+- During observation: Real-time data only (speed priority)
+- Result verification: Deep analysis afterward
+
+---
+
+### Kepner-Tregoe Research Strategy
+
+**Goal**: Evidence-based analysis for systematic decision-making
+
+```
+Problem Analysis:
+├─ What is the problem?
+├─ Where does it occur?
+├─ When does it occur?
+└─ Research: Objective facts (documentation, data)
+
+Cause Analysis:
+├─ List possible causes
+├─ Evaluate probability of each cause
+└─ Research: Scientific evidence
+
+Decision Analysis:
+├─ Possible options
+├─ Pros and cons of each option
+├─ Risk assessment
+└─ Research: Case analysis, benchmarks
+```
+
+**High-Confidence Kepner-Tregoe**:
+- Tier 1 problem analysis (facts only)
+- Tier 2 cause analysis (testing/verification)
+- Tier 1-2 decision-making (cases/benchmarks)
+
+---
+
+## 🤝 Integration (Synthesis)
+
+### Dialectic Research Strategy
+
+**Goal**: Validate both opposing perspectives
+
+```
+Thesis (Argument):
+└─ Research: Evidence for perspective A
+
+Antithesis (Counter-argument):
+└─ Research: Evidence for perspective B
+
+Synthesis (Integration):
+└─ Research: Cases integrating both perspectives
+   (historical cases, organizational change cases, etc.)
+```
+
+**Example**: Innovation vs Stability
+
+```
+Thesis: "Fast innovation is the key to growth"
+  Evidence: Tesla, Amazon, and other rapid innovation companies
+
+Antithesis: "Stability and quality are important"
+  Evidence: Toyota quality philosophy, safety-focused airlines
+
+Synthesis: "Balance between innovation and stability"
+  Evidence: Amazon - Speed + Stability
+           Toyota - Innovation + Quality prioritization
+```
+
+---
+
+## 📊 Information Sources Guide
+
+### Efficient Research Planning
+
+**Research depth by time allocation**:
+
+```
+30-minute research:
+├─ Internal data (required)
+└─ 1-2 online resources
+
+2-hour research:
+├─ Internal analysis
+├─ 3-5 Tier 2 sources
+└─ 1 Tier 1 resource
+
+1-day research:
+├─ Deep internal analysis
+├─ 10+ sources (diverse perspectives)
+├─ Tier 1-2 resources
+└─ Expert interviews
+```
+
+### Best credibility information by source
+
+**Information available from Tier 1 sources**:
+```
+Academic papers → Principles, theories, scientific evidence
+Government data → Market size, regulations, statistics
+Official documentation → Technical specifications, vendor benchmarks
+Official announcements → Company performance, strategy
+```
+
+**Information available from Tier 2 sources**:
+```
+Industry reports → Market analysis, trends
+Expert blogs → Case studies, practical experience
+Trusted media → News, in-depth reports
+Conferences → Latest trends, case studies
+```
+
+**Information available from Tier 3-4 sources**:
+```
+User forums → Real user experience, problems
+Social media → Real-time reactions, sentiment
+Blogs/comments → Diverse perspectives, opinions
+```
+
+---
+
+## 🎯 Research Efficiency Tips
+
+### Research Checklist
+
+```
+[ ] Is time constraint clear?
+[ ] Is the required information specific?
+[ ] Are source credibility criteria established?
+[ ] Is the internal/external information ratio appropriate?
+[ ] Have multiple perspectives been collected?
+[ ] Have conflicting information sources been verified?
+```
+
+### Tips for quick research
+
+1. **Specific questions**: "Is the market big?" (✗) vs "What is our segment's market size?" (✓)
+2. **Source prioritization**: Find Tier 1 first (high credibility)
+3. **Quick verification**: Cross-check with minimum 2 sources
+4. **Sufficiency mindset**: Perfection not required, 60%+ confidence enables decision-making
 
 ---
 

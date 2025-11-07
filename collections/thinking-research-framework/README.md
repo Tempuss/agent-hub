@@ -1,255 +1,255 @@
 # Thinking + Research Framework
 
-> **증거 기반 체계적 문제 해결 시스템**
+> **Evidence-Based Systematic Problem-Solving System**
 
-[thinking-framework](https://github.com/tempuss/thinking-framework)의 15가지 체계적 사고법과 [web-research](https://github.com/tempuss/web-research)의 증거 기반 검증을 결합한 통합 컬렉션입니다.
+An integrated collection combining 15 systematic thinking methods from [thinking-framework](https://github.com/tempuss/thinking-framework) with evidence-based validation from [web-research](https://github.com/tempuss/web-research).
 
 ---
 
-## 🎯 핵심 개념
+## 🎯 Core Concepts
 
-### 문제: 불완전한 분석
+### The Problem: Incomplete Analysis
 ```
-❌ 논리만으로 분석  →  현실과 맞지 않는 결정
-❌ 데이터만으로 분석  →  의미 있는 구조 부족
+❌ Logic alone  →  Decisions disconnected from reality
+❌ Data alone  →  Lack of meaningful structure
 ```
 
-### 해결: 증거 기반 체계적 사고
+### The Solution: Evidence-Based Systematic Thinking
 ```
-✅ 사고법(구조) + 연구(증거)  →  신뢰도 높은 결정
+✅ Thinking Methods (structure) + Research (evidence)  →  High-confidence decisions
    thinking-framework  +  web-research  =  thinking-research-framework
 ```
 
 ---
 
-## 📦 설치
+## 📦 Installation
 
-### 옵션 1: 통합 컬렉션 설치 (권장)
+### Option 1: Bundled Collection Installation (Recommended)
 
-한 번에 thinking-framework + web-research를 함께 설치:
+Install thinking-framework + web-research together in one command:
 
 ```bash
 prpm install collections/thinking-research-framework
 ```
 
-**이상적인 경우:**
-- 신규 프로젝트 시작
-- 증거 기반 의사결정이 중요한 팀
-- 완벽한 문제 해결 시스템 원함
+**Ideal for:**
+- Starting new projects
+- Teams where evidence-based decision-making is critical
+- Those seeking a complete problem-solving system
 
 ---
 
-### 옵션 2: 개별 설치 (선택적)
+### Option 2: Individual Installation (Optional)
 
-필요한 것만 개별 설치:
+Install only what you need:
 
 ```bash
-# 사고법만 사용
+# Use thinking methods only
 prpm install thinking-framework
 
-# 연구만 사용
+# Use research tools only
 prpm install web-research
 
-# 둘 다 개별 설치
+# Install both separately
 prpm install thinking-framework web-research
 ```
 
-**이상적인 경우:**
-- 기존 프로젝트에 추가
-- 특정 기능만 필요
-- 유연한 구성 선호
+**Ideal for:**
+- Adding to existing projects
+- When you need specific functionality only
+- When you prefer flexible configuration
 
 ---
 
-## 🚀 빠른 시작
+## 🚀 Quick Start
 
-### 1단계: 사고법으로 분석
+### Step 1: Analyze with Thinking Methods
 
-예: 고객 이탈 문제 해결
-
-```
-① Problem Definition: 문제를 정확히 정의
-   → "이탈율 8%인데 업계 평균 3%"
-   → "중점 고객층의 약한 온보딩이 원인"
-
-② 적절한 사고법 선택: 프로세스 개선 (Pareto)
-   → 이탈 원인 분석: 온보딩 60%, 기능 35%, 지원 20%
-
-③ Action Plan: 증거 기반 우선순위
-   → 온보딩 개선 (가장 높은 영향도)
-```
-
-### 2단계: 연구로 검증
+Example: Solving customer churn problem
 
 ```
-④ Research: 증거 수집 (선택사항)
-   → 온보딩 개선의 실제 효과 (업계 사례: 70% 성공률)
-   → 현실적인 목표 설정 (단순 추측이 아닌 데이터 기반)
+① Problem Definition: Define the problem precisely
+   → "Churn rate is 8% but industry average is 3%"
+   → "Root cause: weak onboarding for key customer segment"
 
-⑤ Confidence Scoring: 신뢰도 평가
-   → 방법 신뢰도: 85% (Pareto 분석 정확도)
-   → 증거 신뢰도: 75% (업계 벤치마크)
-   → 최종 신뢰도: 64% (의사결정 자신감)
+② Select appropriate thinking method: Process improvement (Pareto)
+   → Churn analysis: Onboarding 60%, Features 35%, Support 20%
+
+③ Action Plan: Evidence-based prioritization
+   → Improve onboarding (highest impact)
 ```
 
-### 3단계: 확신을 가지고 실행
+### Step 2: Validate with Research
 
 ```
-⑥ Execution: 데이터 기반 의사결정
-   → "75% 신뢰로 온보딩 개선에 집중"
-   → 실패 위험은 있지만 근거 있는 선택
+④ Research: Gather evidence (optional)
+   → Real-world impact of onboarding improvements (industry case: 70% success rate)
+   → Set realistic goals (data-driven, not guesswork)
+
+⑤ Confidence Scoring: Evaluate confidence
+   → Method confidence: 85% (Pareto analysis accuracy)
+   → Evidence confidence: 75% (industry benchmarks)
+   → Final confidence: 64% (decision confidence)
+```
+
+### Step 3: Execute with Confidence
+
+```
+⑥ Execution: Data-driven decision-making
+   → "Focus on onboarding improvement with 75% confidence"
+   → There's risk of failure, but it's an evidence-based choice
 ```
 
 ---
 
-## 📚 문서 구조
+## 📚 Documentation Structure
 
 ```
 thinking-research-framework/
-├── README.md                          # ← 지금 보는 파일
-├── GUIDE.md                           # 실용적 사용 가이드
-├── prpm.json                          # 컬렉션 정의
+├── README.md                          # ← The file you're reading now
+├── GUIDE.md                           # Practical usage guide
+├── prpm.json                          # Collection definition
 │
 ├── reference/
-│   ├── research-tips.md               # 사고법별 연구 팁
-│   └── confidence-scoring.md          # 신뢰도 계산 가이드
+│   ├── research-tips.md               # Research tips by thinking method
+│   └── confidence-scoring.md          # Confidence calculation guide
 │
 ├── templates/
-│   ├── research-strategy-worksheet.md # 리서치 계획 워크시트
-│   └── research-combined-workflow.md  # 통합 워크플로우 템플릿
+│   ├── research-strategy-worksheet.md # Research planning worksheet
+│   └── research-combined-workflow.md  # Integrated workflow template
 │
 └── examples/
-    ├── 01-market-entry.md            # 시장 진출 전략
-    ├── 02-performance-optimization.md # 성능 최적화
-    ├── 03-customer-retention.md       # 고객 유지 전략
-    └── 04-technology-selection.md     # 기술 선택
+    ├── 01-market-entry.md            # Market entry strategy
+    ├── 02-performance-optimization.md # Performance optimization
+    ├── 03-customer-retention.md       # Customer retention strategy
+    └── 04-technology-selection.md     # Technology selection
 ```
 
 ---
 
-## 🎓 사용 패턴
+## 🎓 Usage Patterns
 
-### 패턴 1: 빠른 의사결정 (1-2시간)
-
-```
-문제 정의 → 적절한 사고법 선택 → 빠른 분석 → 의사결정
-(연구 최소화, 시간 중심)
-```
-
-**예:** "이번 분기 기능 우선순위 정하기"
-- 사고법: Pareto (20/80 원칙)
-- 연구: 내부 데이터만 활용
-- 신뢰도: 중간 (내부 정보만)
-
----
-
-### 패턴 2: 전략적 의사결정 (1-3일)
+### Pattern 1: Quick Decision-Making (1-2 hours)
 
 ```
-문제 정의 → 시장/경쟁 연구 → 사고법 적용 → 신뢰도 평가 → 의사결정
-(충분한 증거, 정확도 중심)
+Problem definition → Select appropriate thinking method → Quick analysis → Decision
+(Minimal research, time-focused)
 ```
 
-**예:** "새로운 시장에 진출할 것인가?"
-- 사고법: SWOT + GAP Analysis
-- 연구: 시장 규모, 경쟁사, 규제 환경
-- 신뢰도: 높음 (Tier 1 출처 활용)
+**Example:** "Set feature priorities for this quarter"
+- Thinking method: Pareto (20/80 principle)
+- Research: Use internal data only
+- Confidence: Medium (internal information only)
 
 ---
 
-### 패턴 3: 혁신/문제 해결 (3-7일)
+### Pattern 2: Strategic Decision-Making (1-3 days)
 
 ```
-문제 정의 → 기술 연구 → 사용자 리서치 → 사고법 적용 → 신뢰도 평가 → 실행
-(포괄적 증거, 신뢰도 높음)
+Problem definition → Market/competitive research → Apply thinking method → Evaluate confidence → Decision
+(Sufficient evidence, accuracy-focused)
 ```
 
-**예:** "신제품 개발 가능성 평가"
-- 사고법: Design Thinking + First Principles
-- 연구: 사용자 니즈, 기술 제약, 경쟁 동향
-- 신뢰도: 매우 높음 (다층 검증)
+**Example:** "Should we enter a new market?"
+- Thinking method: SWOT + GAP Analysis
+- Research: Market size, competitors, regulatory environment
+- Confidence: High (using Tier 1 sources)
 
 ---
 
-## 🔑 주요 기능
+### Pattern 3: Innovation/Problem Solving (3-7 days)
 
-### 1️⃣ 15가지 증명된 사고법
-- **근본원인 분석**: 5 Why, Fishbone Diagram
-- **혁신**: SCAMPER, TRIZ, Design Thinking, First Principles
-- **전략 계획**: SWOT, GAP Analysis
-- **프로세스 개선**: Pareto, PDCA, DMAIC
-- **의사결정**: OODA Loop, Kepner-Tregoe
-- **종합**: Dialectic Synthesis
+```
+Problem definition → Technical research → User research → Apply thinking method → Evaluate confidence → Execute
+(Comprehensive evidence, high confidence)
+```
 
-### 2️⃣ 연구 기반 검증
-- 사고법별 최적화된 리서치 전략
-- 출처 신뢰도 계층화 (Tier 1-4)
-- 신뢰도 점수 계산 시스템
-- 의사결정 자신감 평가
-
-### 3️⃣ 실제 사용 사례
-- 시장 진출 전략
-- 성능 최적화
-- 고객 유지
-- 기술 선택
-- 조직 변화
-
-### 4️⃣ 템플릿과 워크시트
-- 리서치 전략 계획 양식
-- 통합 워크플로우 템플릿
-- 신뢰도 평가 체크리스트
+**Example:** "Evaluate new product development feasibility"
+- Thinking method: Design Thinking + First Principles
+- Research: User needs, technical constraints, competitive trends
+- Confidence: Very high (multi-layer validation)
 
 ---
 
-## 💡 핵심 가치
+## 🔑 Key Features
 
-### thinking-framework만 사용하면?
-✅ 체계적 분석
-❌ 외부 맥락 부족
-❌ 중간 신뢰도
+### 1️⃣ 15 Proven Thinking Methods
+- **Root cause analysis**: 5 Why, Fishbone Diagram
+- **Innovation**: SCAMPER, TRIZ, Design Thinking, First Principles
+- **Strategic planning**: SWOT, GAP Analysis
+- **Process improvement**: Pareto, PDCA, DMAIC
+- **Decision-making**: OODA Loop, Kepner-Tregoe
+- **Integration**: Dialectic Synthesis
 
-### web-research만 사용하면?
-✅ 풍부한 증거
-❌ 분석 구조 부족
-❌ 실행 어려움
+### 2️⃣ Research-Based Validation
+- Optimized research strategies for each thinking method
+- Source credibility stratification (Tier 1-4)
+- Confidence score calculation system
+- Decision-making confidence assessment
 
-### 둘을 함께 사용하면?
-✅ 체계적 분석 + 외부 증거
-✅ 높은 신뢰도
-✅ 실행 가능한 인사이트
-✅ **진정한 증거 기반 의사결정**
+### 3️⃣ Real-World Case Studies
+- Market entry strategy
+- Performance optimization
+- Customer retention
+- Technology selection
+- Organizational change
 
----
-
-## 🎯 누가 사용하나?
-
-| 대상 | 이상적인 경우 |
-|------|-------------|
-| **신규 팀** | "우리 팀의 표준 문제 해결 프로세스를 만들고 싶다" |
-| **스타트업** | "제한된 데이터로 빠르고 확실한 의사결정을 해야 한다" |
-| **제품팀** | "사용자 니즈와 시장 데이터를 기반으로 개발하고 싶다" |
-| **경영진** | "신뢰할 수 있는 전략 수립 프로세스를 원한다" |
-| **엔지니어** | "기술 선택을 데이터 기반으로 하고 싶다" |
+### 4️⃣ Templates and Worksheets
+- Research strategy planning worksheet
+- Integrated workflow template
+- Confidence assessment checklist
 
 ---
 
-## 📖 다음 단계
+## 💡 Core Value
 
-1. **[GUIDE.md](GUIDE.md)** 읽기 - 실용적 사용 방법
-2. **[examples/](examples/)** 검토 - 실제 사용 사례 학습
-3. **[templates/](templates/)** 활용 - 워크시트로 직접 적용
-4. **[reference/](reference/)** 참고 - 상세 가이드
+### Using thinking-framework alone?
+✅ Systematic analysis
+❌ Lack of external context
+❌ Medium confidence
+
+### Using web-research alone?
+✅ Rich evidence
+❌ Lack of analytical structure
+❌ Difficult to execute
+
+### Using both together?
+✅ Systematic analysis + external evidence
+✅ High confidence
+✅ Actionable insights
+✅ **True evidence-based decision-making**
 
 ---
 
-## 🔗 관련 스킬
+## 🎯 Who Should Use This?
 
-- **[thinking-framework](https://github.com/tempuss/thinking-framework)** - 15가지 사고법
-- **[web-research](https://github.com/tempuss/web-research)** - 증거 기반 연구
+| Target | Ideal Scenario |
+|--------|---|
+| **New teams** | "We want to establish a standard problem-solving process for our team" |
+| **Startups** | "We need to make fast, confident decisions with limited data" |
+| **Product teams** | "We want to develop based on user needs and market data" |
+| **Executives** | "We want a reliable strategic planning process" |
+| **Engineers** | "We want to make technology choices data-driven" |
 
 ---
 
-## 📝 라이선스
+## 📖 Next Steps
+
+1. Read **[GUIDE.md](GUIDE.md)** - Learn practical usage
+2. Review **[examples/](examples/)** - Study real-world case studies
+3. Use **[templates/](templates/)** - Apply directly with worksheets
+4. Consult **[reference/](reference/)** - Detailed guidance by thinking method
+
+---
+
+## 🔗 Related Skills
+
+- **[thinking-framework](https://github.com/tempuss/thinking-framework)** - 15 proven thinking methods
+- **[web-research](https://github.com/tempuss/web-research)** - Evidence-based research
+
+---
+
+## 📝 License
 
 MIT
 

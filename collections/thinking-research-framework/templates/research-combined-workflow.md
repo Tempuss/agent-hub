@@ -1,448 +1,448 @@
-# 통합 워크플로우 템플릿 (Integrated Research + Thinking Workflow)
+# Integrated Workflow Template (Integrated Research + Thinking Workflow)
 
-실제 의사결정에 바로 적용할 수 있는 단계별 템플릿
-
----
-
-## 📋 템플릿 사용 가이드
-
-각 섹션을 작성하면서 진행합니다. 시간이 없으면 **필수 항목(*)만** 작성해도 됩니다.
+Step-by-step template directly applicable to real decision-making
 
 ---
 
-## Phase 1: 문제 정의 (30-60분)
+## 📋 Template Usage Guide
 
-### 문제 설명
+Work through each section as you progress. If time is limited, you can complete only **required items (*)**.
+
+---
+
+## Phase 1: Problem Definition (30-60 minutes)
+
+### Problem Description
 ```
-현재 상황:
-[구체적 현황 작성]
+Current situation:
+[Write specific current state]
 
-증상 vs 근본 원인:
-[이것이 증상인지 근본 원인인지 판단]
+Symptom vs root cause:
+[Determine if this is a symptom or root cause]
 
-비즈니스 영향:
-- 재무적 영향: [손실액, 수익 기회]
-- 전략적 영향: [사업 영향]
-- 운영 영향: [작업량, 효율성]
-```
-
-### 성공 기준 *
-```
-이 문제가 해결되었다는 증거:
-1. [측정 가능한 지표]
-2. [측정 가능한 지표]
-3. [측정 가능한 지표]
-
-현재: [현재값]
-목표: [목표값]
-기간: [달성 기간]
+Business impact:
+- Financial impact: [Loss amount, revenue opportunity]
+- Strategic impact: [Business implications]
+- Operational impact: [Workload, efficiency]
 ```
 
-### 스테이크홀더
+### Success Criteria *
 ```
-누가 이 문제로 영향받나?
-- [역할]: [영향도]
+Evidence that this problem has been solved:
+1. [Measurable indicator]
+2. [Measurable indicator]
+3. [Measurable indicator]
 
-누가 결정권을 가지나?
-- [결정권자]
+Current: [Current value]
+Target: [Target value]
+Timeframe: [Achievement timeframe]
+```
 
-누가 실행하나?
-- [실행자]
+### Stakeholders
+```
+Who is affected by this problem?
+- [Role]: [Impact level]
+
+Who has decision authority?
+- [Decision maker]
+
+Who will execute?
+- [Executor]
 ```
 
 ---
 
-## Phase 2: 사고법 선택 및 적용 (20-60분)
+## Phase 2: Thinking Method Selection & Application (20-60 minutes)
 
-### 사고법 선택 이유
+### Thinking Method Selection Rationale
 ```
-문제 유형: [근본원인/혁신/전략/개선/의사결정]
-선택한 사고법: [구체적 방법명]
-선택 이유: [왜 이 방법이 가장 적합한가]
-```
-
-### 사고법 적용 결과
-
-#### 분석 방법: [선택한 사고법]
-
-**주요 발견**:
-```
-1. [핵심 발견 1]
-2. [핵심 발견 2]
-3. [핵심 발견 3]
+Problem type: [Root cause/Innovation/Strategy/Improvement/Decision-making]
+Selected thinking method: [Specific method name]
+Selection rationale: [Why is this method most appropriate]
 ```
 
-**상세 분석**:
+### Thinking Method Application Results
+
+#### Analysis Method: [Selected thinking method]
+
+**Key Findings**:
 ```
-[선택한 사고법에 따른 상세 분석 기록]
-
-예시 (5 Why인 경우):
-Why 1: [첫 번째 원인]
-Why 2: [두 번째 원인]
-Why 3: [세 번째 원인]
-Why 4: [네 번째 원인]
-Why 5: [근본 원인]
-
-예시 (Pareto인 경우):
-상위 20% = [상위 항목들]
-이것이 전체의 [X]% 설명
+1. [Key finding 1]
+2. [Key finding 2]
+3. [Key finding 3]
 ```
 
-### 초기 신뢰도 평가
+**Detailed Analysis**:
 ```
-방법 신뢰도: [%]
-  근거: [왜 이 점수인가]
+[Detailed analysis record according to selected thinking method]
 
-현재 정보 신뢰도: [%]
-  사용한 출처: [내부/외부, Tier]
+Example (5 Why case):
+Why 1: [First cause]
+Why 2: [Second cause]
+Why 3: [Third cause]
+Why 4: [Fourth cause]
+Why 5: [Root cause]
 
-초기 신뢰도: [%]
-  = 방법 신뢰도 × 현재 정보
+Example (Pareto case):
+Top 20% = [Top items]
+This explains [X]% of total
+```
+
+### Initial Confidence Assessment
+```
+Method credibility: [%]
+  Rationale: [Why this score]
+
+Current information credibility: [%]
+  Sources used: [Internal/External, Tier]
+
+Initial confidence: [%]
+  = Method credibility × Current information
   = [X]% × [Y]% = [Z]%
 
-결론: 현재 신뢰도로 결정 가능한가?
-[ ] 예 (80% 이상) → Phase 5로
-[ ] 아니요 (60% 미만) → Phase 3로
+Conclusion: Can we decide based on current confidence?
+[ ] Yes (80% or above) → Go to Phase 5
+[ ] No (Below 60%) → Go to Phase 3
 ```
 
 ---
 
-## Phase 3: 연구 계획 (10-20분)
+## Phase 3: Research Planning (10-20 minutes)
 
-### 연구 필요성 판단
+### Research Necessity Assessment
 ```
-신뢰도를 높이려면:
+To increase confidence:
 
-확인해야 할 주요 가정:
-1. [가정 1]
-2. [가정 2]
-3. [가정 3]
+Key assumptions to verify:
+1. [Assumption 1]
+2. [Assumption 2]
+3. [Assumption 3]
 
-우선순위 (영향도 × 불확실성):
-1. [가장 중요한 것]
-2. [다음 중요한 것]
-```
-
-### 연구 계획 *
-```
-사용 가능한 시간: [시간]
-
-연구 대상:
-1. [조사할 항목] → 출처: [Tier]
-2. [조사할 항목] → 출처: [Tier]
-3. [조사할 항목] → 출처: [Tier]
-
-출처 찾는 방법:
-- 검색어: [구체적 검색어]
-- 플랫폼: [어디서 찾을 것인가]
-- 대안: [만약 찾지 못하면]
+Priority (Impact × Uncertainty):
+1. [Most important]
+2. [Next important]
 ```
 
-### 연구 시간 예산
+### Research Plan *
 ```
-이상적: [시간]
-현실적: [시간]
-최소: [시간]
+Available time: [Time]
 
-우선순위:
-Priority 1 (필수): [항목]
-Priority 2 (권장): [항목]
-Priority 3 (선택): [항목]
-```
+Research targets:
+1. [Item to investigate] → Source: [Tier]
+2. [Item to investigate] → Source: [Tier]
+3. [Item to investigate] → Source: [Tier]
 
----
-
-## Phase 4: 연구 실행 및 기록 (1시간-3일)
-
-### 연구 기록
-
-#### 연구 1: [주제]
-```
-질문: [무엇을 조사했는가]
-출처: [어디서 찾았는가]
-출처 신뢰도: Tier [1-4]
-찾은 정보:
-[정보 내용]
-
-출처 링크/참고: [URL 또는 인용]
-신뢰도 평가: [이 정보가 신뢰 가능한가]
+How to find sources:
+- Search terms: [Specific search terms]
+- Platform: [Where to find]
+- Alternative: [If not found]
 ```
 
-#### 연구 2: [주제]
+### Research Time Budget
 ```
-질문: [무엇을 조사했는가]
-출처: [어디서 찾았는가]
-출처 신뢰도: Tier [1-4]
-찾은 정보:
-[정보 내용]
+Ideal: [Time]
+Realistic: [Time]
+Minimum: [Time]
 
-출처 링크/참고: [URL 또는 인용]
-신뢰도 평가: [이 정보가 신뢰 가능한가]
-```
-
-#### 연구 3: [주제]
-```
-질문: [무엇을 조사했는가]
-출처: [어디서 찾았는가]
-출처 신뢰도: Tier [1-4]
-찾은 정보:
-[정보 내용]
-
-출처 링크/참고: [URL 또는 인용]
-신뢰도 평가: [이 정보가 신뢰 가능한가]
-```
-
-### 연구 종합
-```
-주요 발견 1:
-[정보] (출처: [Tier], 신뢰도: [%])
-
-주요 발견 2:
-[정보] (출처: [Tier], 신뢰도: [%])
-
-주요 발견 3:
-[정보] (출처: [Tier], 신뢰도: [%])
-
-상충하는 정보:
-[있으면 기록, 어느 것이 더 신뢰 가능한가]
-
-부족한 정보:
-[더 필요한 정보가 있으면 기록]
+Priority:
+Priority 1 (Required): [Item]
+Priority 2 (Recommended): [Item]
+Priority 3 (Optional): [Item]
 ```
 
 ---
 
-## Phase 5: 통합 분석 및 신뢰도 재계산
+## Phase 4: Research Execution & Documentation (1 hour - 3 days)
 
-### 사고법 분석 + 연구 증거 통합
+### Research Documentation
 
+#### Research 1: [Topic]
 ```
-초기 사고법 분석:
-[Phase 2에서의 결론]
+Question: [What did you investigate]
+Source: [Where did you find it]
+Source credibility: Tier [1-4]
+Information found:
+[Information content]
 
-연구로 얻은 증거:
-[Phase 4에서의 주요 발견]
-
-통합 결론:
-[사고법 + 증거를 함께 고려한 최종 판단]
-
-변화된 점:
-[초기 분석과 비교해서 어떤 부분이 달라졌나]
+Source link/reference: [URL or citation]
+Credibility assessment: [Is this information trustworthy]
 ```
 
-### 신뢰도 최종 계산 *
-
+#### Research 2: [Topic]
 ```
-방법 신뢰도: [%]
-  사용한 방법: [사고법명]
-  방법 신뢰도 근거: [왜 이 점수인가]
+Question: [What did you investigate]
+Source: [Where did you find it]
+Source credibility: Tier [1-4]
+Information found:
+[Information content]
 
-증거 신뢰도: [%]
-  사용한 출처들:
-  - Tier 1: [개수] (신뢰도 90%)
-  - Tier 2: [개수] (신뢰도 70%)
-  - Tier 3: [개수] (신뢰도 50%)
-  - Tier 4: [개수] (신뢰도 30%)
-
-  평균 증거 신뢰도 = ([T1개수]×0.9 + [T2개수]×0.7 + [T3개수]×0.5 + [T4개수]×0.3) / 총개수
-                  = [%]
-
-상황 적합도: [%]
-  시간: [충분/제약]
-  리소스: [충분/제약]
-  문제-방법 적합도: [적합도]
-
-최종 신뢰도 점수: [%]
-  = 방법 신뢰도 × 증거 신뢰도 × 상황 적합도
-  = [X]% × [Y]% × [Z]% = [최종]%
+Source link/reference: [URL or citation]
+Credibility assessment: [Is this information trustworthy]
 ```
 
-### 신뢰도 해석
+#### Research 3: [Topic]
 ```
-신뢰도 80% 이상?
-[ ] 예 → 자신감 있게 의사결정 실행 가능
+Question: [What did you investigate]
+Source: [Where did you find it]
+Source credibility: Tier [1-4]
+Information found:
+[Information content]
 
-신뢰도 60-79%?
-[ ] 예 → MVP/파일럿 규모로 테스트 후 확대
-
-신뢰도 60% 미만?
-[ ] 예 → 추가 연구 권장 또는 전문가 상담
-```
-
----
-
-## Phase 6: 의사결정 및 액션 플랜 *
-
-### 최종 의사결정
-```
-결정: [명확한 의사결정 서술]
-
-근거:
-1. [근거 1] (신뢰도: [%])
-2. [근거 2] (신뢰도: [%])
-3. [근거 3] (신뢰도: [%])
-
-위험 요소:
-[주요 위험 1]
-[주요 위험 2]
-
-위험 완화 방법:
-[위험 1 완화 전략]
-[위험 2 완화 전략]
+Source link/reference: [URL or citation]
+Credibility assessment: [Is this information trustworthy]
 ```
 
-### 액션 플랜
+### Research Synthesis
+```
+Key finding 1:
+[Information] (Source: [Tier], Credibility: [%])
 
-#### 즉시 실행 (0-2주)
-```
-액션: [구체적 액션]
-소유자: [담당자]
-리소스: [필요한 리소스]
-성공 기준: [어떻게 성공을 알 수 있을까]
-```
+Key finding 2:
+[Information] (Source: [Tier], Credibility: [%])
 
-#### 단기 실행 (2-4주)
-```
-액션: [구체적 액션]
-소유자: [담당자]
-리소스: [필요한 리소스]
-성공 기준: [어떻게 성공을 알 수 있을까]
-```
+Key finding 3:
+[Information] (Source: [Tier], Credibility: [%])
 
-#### 중기 실행 (1-3개월)
-```
-액션: [구체적 액션]
-소유자: [담당자]
-리소스: [필요한 리소스]
-성공 기준: [어떻게 성공을 알 수 있을까]
-```
+Conflicting information:
+[Record if any, which is more trustworthy]
 
-### 측정 계획
-```
-성공 지표:
-1. [지표 1]: 현재 [X] → 목표 [Y] (기간: [시간])
-2. [지표 2]: 현재 [X] → 목표 [Y] (기간: [시간])
-3. [지표 3]: 현재 [X] → 목표 [Y] (기간: [시간])
-
-측정 방법:
-[어떻게 측정할 것인가]
-
-검토 일정:
-- 1주일 후: [검토 항목]
-- 1개월 후: [검토 항목]
-- [기간] 후: [최종 평가]
+Missing information:
+[Record if additional information is needed]
 ```
 
 ---
 
-## Phase 7: 실행 후 학습
+## Phase 5: Integrated Analysis & Confidence Recalculation
 
-### 실행 결과 기록
+### Thinking Method Analysis + Research Evidence Integration
 
-#### 예상 vs 실제
 ```
-예상했던 결과:
-[Phase 5에서의 예상]
+Initial thinking method analysis:
+[Conclusion from Phase 2]
 
-실제 결과:
-[실제 일어난 일]
+Research evidence obtained:
+[Key findings from Phase 4]
 
-차이:
-[예상과 실제의 격차]
+Integrated conclusion:
+[Final judgment considering both thinking method and evidence]
 
-원인:
-[왜 차이가 났나]
-```
-
-### 학습 및 피드백
-```
-잘된 것:
-1. [좋았던 점]
-2. [좋았던 점]
-
-개선할 것:
-1. [다음에 개선할 점]
-2. [다음에 개선할 점]
-
-사고법 피드백:
-[이 사고법은 이 문제에서 얼마나 도움이 되었나]
-
-연구 방식 피드백:
-[어떤 출처가 가장 유용했나]
-
-다음 사이클에 적용할 것:
-[학습을 어떻게 다음 문제에 적용할 것인가]
+What changed:
+[What differs compared to initial analysis]
 ```
 
-### 신뢰도 재평가
+### Final Confidence Score Calculation *
+
 ```
-최종 실제 신뢰도: [%]
-[우리 신뢰도 계산이 정확했나]
+Method credibility: [%]
+  Thinking method used: [Method name]
+  Credibility rationale: [Why this score]
 
-다음번 유사한 문제에서:
-[이번 경험으로부터 배운 기준]
-```
+Evidence credibility: [%]
+  Sources used:
+  - Tier 1: [Number] (90% credibility)
+  - Tier 2: [Number] (70% credibility)
+  - Tier 3: [Number] (50% credibility)
+  - Tier 4: [Number] (30% credibility)
 
----
+  Average evidence credibility = ([T1 count]×0.9 + [T2 count]×0.7 + [T3 count]×0.5 + [T4 count]×0.3) / Total count
+                               = [%]
 
-## 🎯 빠른 참조: 시간대별 템플릿
+Contextual fit: [%]
+  Time: [Sufficient/Constrained]
+  Resources: [Sufficient/Constrained]
+  Problem-method alignment: [Alignment level]
 
-### 30분 의사결정 템플릿
-```
-문제: [간단히 설명]
-사고법: [빠른 분석, 예: Pareto]
-
-분석:
-1. [발견 1]
-2. [발견 2]
-
-신뢰도: [60-70%, 내부 데이터만 사용]
-
-결정: [명확한 결정]
-
-액션: [즉시 실행할 1-2가지]
+Final confidence score: [%]
+  = Method credibility × Evidence credibility × Contextual fit
+  = [X]% × [Y]% × [Z]% = [Final]%
 ```
 
-### 2시간 의사결정 템플릿
+### Confidence Interpretation
 ```
-문제: [정의]
-사고법: [선택한 방법, 예: SWOT+GAP]
+Confidence 80% or above?
+[ ] Yes → Can execute decision with confidence
 
-분석 결과:
-[주요 발견 3-4개]
+Confidence 60-79%?
+[ ] Yes → Test at MVP/pilot scale, then expand
 
-가벼운 연구 (1개 출처):
-[확인한 정보]
-
-신뢰도: [70-75%]
-
-결정: [명확한 결정]
-
-액션 플랜: [3-4개 액션]
-```
-
-### 1일 의사결정 템플릿
-```
-[전체 7개 Phase 중 1-5 완료]
-
-신뢰도: [75-85%]
-
-의사결정: [전략적 결정]
-
-액션 플랜: [상세한 5-10개 액션]
+Confidence below 60%?
+[ ] Yes → Additional research recommended or expert consultation
 ```
 
 ---
 
-## 📝 문서 작성 팁
+## Phase 6: Decision & Action Plan *
 
-- **명확함**: 나중에 자신이 읽을 때 이해할 수 있게 작성
-- **근거**: 판단을 내린 이유를 항상 기록
-- **출처**: 사용한 정보의 출처를 명확히
-- **수정 허용**: 진행하면서 새로운 정보가 나오면 수정해도 됨
+### Final Decision
+```
+Decision: [Clear decision statement]
+
+Evidence:
+1. [Evidence 1] (Confidence: [%])
+2. [Evidence 2] (Confidence: [%])
+3. [Evidence 3] (Confidence: [%])
+
+Risk factors:
+[Key risk 1]
+[Key risk 2]
+
+Risk mitigation strategies:
+[Risk 1 mitigation strategy]
+[Risk 2 mitigation strategy]
+```
+
+### Action Plan
+
+#### Immediate execution (0-2 weeks)
+```
+Action: [Specific action]
+Owner: [Responsible person]
+Resources: [Required resources]
+Success criteria: [How will we know success]
+```
+
+#### Short-term execution (2-4 weeks)
+```
+Action: [Specific action]
+Owner: [Responsible person]
+Resources: [Required resources]
+Success criteria: [How will we know success]
+```
+
+#### Medium-term execution (1-3 months)
+```
+Action: [Specific action]
+Owner: [Responsible person]
+Resources: [Required resources]
+Success criteria: [How will we know success]
+```
+
+### Measurement Plan
+```
+Success metrics:
+1. [Metric 1]: Current [X] → Target [Y] (Timeframe: [Duration])
+2. [Metric 2]: Current [X] → Target [Y] (Timeframe: [Duration])
+3. [Metric 3]: Current [X] → Target [Y] (Timeframe: [Duration])
+
+Measurement method:
+[How will we measure]
+
+Review schedule:
+- After 1 week: [Review items]
+- After 1 month: [Review items]
+- After [Duration]: [Final evaluation]
+```
+
+---
+
+## Phase 7: Post-Execution Learning
+
+### Execution Results Documentation
+
+#### Expected vs Actual
+```
+Expected results:
+[Expectations from Phase 5]
+
+Actual results:
+[What actually happened]
+
+Difference:
+[Gap between expected and actual]
+
+Root cause:
+[Why the difference occurred]
+```
+
+### Learning & Feedback
+```
+What went well:
+1. [Positive outcome]
+2. [Positive outcome]
+
+Areas for improvement:
+1. [Improvement needed next time]
+2. [Improvement needed next time]
+
+Thinking method feedback:
+[How helpful was this thinking method for this problem]
+
+Research approach feedback:
+[Which sources were most useful]
+
+Next cycle applications:
+[How will you apply this learning to future problems]
+```
+
+### Confidence Reevaluation
+```
+Final actual confidence: [%]
+[Was our confidence calculation accurate]
+
+For similar problems next time:
+[Lessons learned from this experience]
+```
+
+---
+
+## 🎯 Quick Reference: Time-Based Templates
+
+### 30-Minute Decision Template
+```
+Problem: [Brief description]
+Thinking method: [Quick analysis, e.g., Pareto]
+
+Analysis:
+1. [Finding 1]
+2. [Finding 2]
+
+Confidence: [60-70%, using internal data only]
+
+Decision: [Clear decision]
+
+Actions: [1-2 immediate actions]
+```
+
+### 2-Hour Decision Template
+```
+Problem: [Definition]
+Thinking method: [Selected method, e.g., SWOT+GAP]
+
+Analysis results:
+[3-4 key findings]
+
+Light research (1 source):
+[Information verified]
+
+Confidence: [70-75%]
+
+Decision: [Clear decision]
+
+Action plan: [3-4 actions]
+```
+
+### 1-Day Decision Template
+```
+[Completed Phases 1-5 of 7 total]
+
+Confidence: [75-85%]
+
+Decision: [Strategic decision]
+
+Action plan: [Detailed 5-10 actions]
+```
+
+---
+
+## 📝 Documentation Tips
+
+- **Clarity**: Write so you can understand it when reading later
+- **Evidence**: Always record the reasoning behind your decisions
+- **Sources**: Clearly identify the sources of information used
+- **Flexibility**: Modify as you progress if new information emerges
 
 ---
 
 **Version**: 1.0.0
 **Last Updated**: 2025-11-07
-**Usage**: 실제 의사결정 및 문제 해결에 직접 적용 가능한 템플릿
+**Usage**: Template directly applicable to real decision-making and problem-solving

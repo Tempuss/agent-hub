@@ -1,206 +1,206 @@
-# 사례 1: 신규 시장 진출 전략 (Market Entry Strategy)
+# Case 1: Strategic Market Entry Strategy
 
-**상황**: B2B SaaS 회사가 신규 지역으로 확장할지 결정해야 함
-
----
-
-## Phase 1: 문제 정의
-
-### 상황
-```
-우리는 미국 시장에서 성공한 HR 관리 SaaS를 운영 중
-고객들이 "아시아 태평양 지역으로 확장해달라"고 요청 중
-자금 남은 상태, 팀 규모 약 20명
-
-질문: 일본 시장에 진출해야 하는가? 언제 진출해야 하는가?
-```
-
-### 성공 기준
-```
-명확한 GO/NO-GO 결정
-리스크 평가
-실행 계획 (GO 결정 시)
-
-목표: 신뢰도 70% 이상의 의사결정
-기간: 2주 내 의사결정
-```
+**Situation**: A B2B SaaS company needs to decide whether to expand into a new region
 
 ---
 
-## Phase 2: 사고법 선택 및 적용
+## Phase 1: Problem Definition
 
-### 선택 이유
+### Situation
 ```
-문제 유형: 전략적 의사결정 + 시장 분석
-선택한 사고법: SWOT Analysis + GAP Analysis + Kepner-Tregoe
-선택 이유:
-- 우리 자체의 강점/약점 파악 필요
-- 시장의 기회/위협 분석 필요
-- 현재 → 목표 상태의 갭 분석 필요
-- 복수의 선택지(일본 vs 싱가포르 vs 호주) 중 선택
+We operate a successful HR management SaaS in the US market
+Customers are requesting "expansion to Asia-Pacific region"
+We have additional funding available, team size approximately 20 people
+
+Question: Should we enter the Japan market? When should we expand?
 ```
 
-### SWOT 분석
-
-#### 강점 (Strengths)
+### Success Criteria
 ```
-1. 미국 시장에서 검증된 제품 및 비즈니스 모델
-   - 월 활성 사용자 5,000명+
-   - 고객 만족도 4.5/5.0
+Clear GO/NO-GO decision
+Risk assessment
+Execution plan (if GO decision)
 
-2. 기술 탁월성
-   - 엔터프라이즈급 보안
-   - 다국어 지원 기반 구축됨
-
-3. 자금 여력
-   - 6개월 추가 운영 자금 (일본 진출 커버 가능)
+Goal: Decision with 70% or higher confidence
+Timeline: Make decision within 2 weeks
 ```
 
-#### 약점 (Weaknesses)
+---
+
+## Phase 2: Thinking Method Selection & Application
+
+### Selection Rationale
 ```
-1. 아시아 시장 경험 부재
-   - 현지 비즈니스 관행 미숙
-   - 규제 환경 이해 부족
-
-2. 소규모 팀
-   - 현지 팀 구성 필요
-   - 영어-일본어 지원 제약
-
-3. 현지 경쟁 미지수
-   - 일본의 로컬 플레이어 분석 부재
-```
-
-#### 기회 (Opportunities)
-```
-1. 시장 성장성
-   - 일본 HR 기술 시장: 년 15% 성장률
-   - 일본 기업의 디지털 전환 가속화
-
-2. 첫 움직이는 이점
-   - 아시아 본격 서비스 제공 기업 부재
-   - 빠른 진출 시 시장 리더십 기회
-
-3. 글로벌 확장 발판
-   - 일본 성공 → 한국, 싱가포르로 확대 가능
+Problem type: Strategic decision-making + market analysis
+Selected thinking methods: SWOT Analysis + GAP Analysis + Kepner-Tregoe
+Rationale for selection:
+- Need to assess our own strengths/weaknesses
+- Need to analyze market opportunities/threats
+- Need to perform gap analysis from current → target state
+- Need to evaluate multiple options (Japan vs Singapore vs Australia)
 ```
 
-#### 위협 (Threats)
+### SWOT Analysis
+
+#### Strengths
 ```
-1. 강력한 로컬 경쟁사
-   - Workday, SuccessFactors가 이미 일본 시장 진입
-   - 현지 기업들(ADP Japan 등)의 강한 입지
+1. Proven product and business model in US market
+   - 5,000+ monthly active users
+   - Customer satisfaction 4.5/5.0
 
-2. 규제 위험
-   - 개인정보보호법 (APPI) 복잡도
-   - 노동법 준수 복잡성
+2. Technical excellence
+   - Enterprise-grade security
+   - Multilingual support foundation already built
 
-3. 진입 비용
-   - 현지화 개발: $500K+
-   - 현지 팀 구성: 월 $50K+
-   - 진입 시간: 6-12개월
+3. Financial capacity
+   - 6 months additional operating capital (can cover Japan expansion)
+```
+
+#### Weaknesses
+```
+1. No Asia market experience
+   - Unfamiliar with local business practices
+   - Limited understanding of regulatory environment
+
+2. Small team size
+   - Need to build local team
+   - Limited English-Japanese support capability
+
+3. Unknown local competition
+   - No analysis of Japanese local players
+```
+
+#### Opportunities
+```
+1. Market growth potential
+   - Japan HR technology market: 15% annual growth
+   - Acceleration of digital transformation in Japanese companies
+
+2. First-mover advantage
+   - No Asia-focused service provider established yet
+   - Opportunity for market leadership with fast entry
+
+3. Platform for global expansion
+   - Japan success → expandable to Korea, Singapore
+```
+
+#### Threats
+```
+1. Strong local competitors
+   - Workday, SuccessFactors already entered Japan market
+   - Strong presence of local companies (ADP Japan, etc.)
+
+2. Regulatory risk
+   - Personal Information Protection Act (APPI) complexity
+   - Labor law compliance complexity
+
+3. Entry costs
+   - Product localization: $500K+
+   - Local team building: $50K+ per month
+   - Time to entry: 6-12 months
 ```
 
 ### GAP Analysis
 
-#### 현재 상태
+#### Current State
 ```
-시장 진출: 미국만
-지역 팀: 없음
-현지 언어 지원: 영어만
-규제 준수: 미국 GDPR/CCPA만
-시장 인지도: 일본에서 0
-```
-
-#### 목표 상태 (6개월 후)
-```
-시장 진출: 미국 + 일본
-지역 팀: 일본 현지 팀 3-5명
-현지 언어 지원: 영어 + 일본어
-규제 준수: APPI, 일본 노동법
-시장 인지도: 일본에서 200+ 가입자
+Market presence: US only
+Regional team: None
+Local language support: English only
+Regulatory compliance: US GDPR/CCPA only
+Market awareness: Zero in Japan
 ```
 
-#### GAP 및 액션
+#### Target State (after 6 months)
 ```
-1. 현지 팀 구성 갭
-   - 액션: 채용 (영업 1명, CS 1명, PM 0.5명)
-   - 시간: 2개월
-   - 비용: $100K+
-
-2. 제품 현지화 갭
-   - 액션: UI/내용 일본어 번역, 법규 준수 기능 추가
-   - 시간: 3개월
-   - 비용: $150K+
-
-3. 시장 진입 갭
-   - 액션: 파트너사 발굴, 마케팅 캠페인
-   - 시간: 2개월
-   - 비용: $50K+
-
-4. 규제 준수 갭
-   - 액션: 법무 검토, APPI 준수 감시 체계 구축
-   - 시간: 1개월
-   - 비용: $30K (외부 법무)
+Market presence: US + Japan
+Regional team: 3-5 local team members in Japan
+Local language support: English + Japanese
+Regulatory compliance: APPI, Japan labor law
+Market awareness: 200+ subscribers in Japan
 ```
 
-### Kepner-Tregoe: 선택지 비교
-
-#### 고려 중인 선택지
+#### Gaps and Actions
 ```
-Option A: 일본 진출 (지금 시작)
-Option B: 싱가포르 진출 (더 작은 시장, 규제 간단)
-Option C: 호주 진출 (영어권, 진입 용이)
-Option D: 대기 (추가 자금 모금 후)
+1. Local team building gap
+   - Action: Recruit (1 sales, 1 CS, 0.5 PM)
+   - Timeline: 2 months
+   - Cost: $100K+
+
+2. Product localization gap
+   - Action: Translate UI/content to Japanese, add compliance features
+   - Timeline: 3 months
+   - Cost: $150K+
+
+3. Market entry gap
+   - Action: Identify partners, launch marketing campaign
+   - Timeline: 2 months
+   - Cost: $50K+
+
+4. Regulatory compliance gap
+   - Action: Legal review, establish APPI compliance monitoring system
+   - Timeline: 1 month
+   - Cost: $30K (external legal)
 ```
 
-#### 평가 기준
+### Kepner-Tregoe: Option Comparison
+
+#### Options Under Consideration
 ```
-시장 규모: 어느 정도 큰가? (중요도: 높음)
-진입 용이도: 얼마나 쉬운가? (중요도: 중간)
-리스크: 얼마나 위험한가? (중요도: 높음)
-ROI: 수익성은? (중요도: 높음)
-실행 가능성: 우리가 할 수 있나? (중요도: 높음)
+Option A: Japan market entry (start now)
+Option B: Singapore market entry (smaller market, simpler regulations)
+Option C: Australia market entry (English-speaking, easier entry)
+Option D: Wait (until additional funding round)
 ```
 
-#### 평가 결과 (1-10점)
+#### Evaluation Criteria
 ```
-                일본    싱가포르   호주    대기
-시장 규모       9        5        4      0
-진입 용이도     4        8        9      10
-리스크          5        7        8      2
-ROI 잠재력      9        6        5      0
-실행 가능성     6        8        9      10
+Market size: How large is the market? (Importance: High)
+Ease of entry: How easy is the entry? (Importance: Medium)
+Risk: How risky is it? (Importance: High)
+ROI potential: How profitable? (Importance: High)
+Feasibility: Can we execute this? (Importance: High)
+```
 
-점수 합계       33       34       35     22
-(가중치 적용)
+#### Evaluation Results (1-10 scale)
+```
+                Japan   Singapore  Australia  Wait
+Market size       9        5          4        0
+Ease of entry     4        8          9       10
+Risk               5        7          8        2
+ROI potential      9        6          5        0
+Feasibility        6        8          9       10
 
-평가: 호주 > 싱가포르 > 일본
-하지만 ROI와 장기 전략을 고려하면 일본이 최적
+Total score       33       34         35       22
+(weighted)
+
+Assessment: Australia > Singapore > Japan
+However, considering ROI and long-term strategy, Japan is optimal
 ```
 
 ---
 
-## Phase 3: 연구 계획
+## Phase 3: Research Planning
 
-### 확인해야 할 가정
+### Assumptions to Verify
 ```
-1. 일본 시장 규모 (년 15% 성장이 맞나?)
-2. 로컬 경쟁 강도 (얼마나 경쟁 심한가?)
-3. 규제 복잡성 (APPI 준수가 실제로 어려운가?)
-4. 고객 수요 (일본 기업들이 정말 원하나?)
-5. 진입 비용 현실성 ($500K로 충분한가?)
+1. Japan market size (is 15% annual growth correct?)
+2. Local competition intensity (how competitive is the market?)
+3. Regulatory complexity (is APPI compliance really difficult?)
+4. Customer demand (do Japanese companies really want this?)
+5. Entry cost realism (is $500K sufficient?)
 ```
 
-### 연구 계획
+### Research Plan
 ```
-사용 가능한 시간: 3주
+Available time: 3 weeks
 
-연구 대상:
-1. 일본 HR 시장 규모 및 성장 → Tier 1: 시장 리포트
-2. 경쟁사 분석 → Tier 2: 경쟁사 웹사이트 + 분석 기사
-3. APPI 규제 요구사항 → Tier 1: 정부 문서
-4. 진입 비용 벤치마크 → Tier 2: 다른 회사 사례
-5. 고객 수요 검증 → Tier 3: 직접 인터뷰 (5-10명)
+Research targets:
+1. Japan HR market size and growth → Tier 1: Market reports
+2. Competitor analysis → Tier 2: Competitor websites + analyst articles
+3. APPI regulatory requirements → Tier 1: Government documents
+4. Entry cost benchmarking → Tier 2: Other company case studies
+5. Customer demand validation → Tier 3: Direct interviews (5-10 people)
 ```
 
 ---

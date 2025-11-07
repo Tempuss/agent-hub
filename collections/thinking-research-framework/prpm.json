@@ -2,63 +2,63 @@
   "id": "thinking-research-framework",
   "name": "Thinking + Research Framework",
   "version": "1.0.0",
-  "description": "증거 기반 체계적 문제 해결 시스템: thinking-framework(사고법)과 web-research(증거 수집)를 결합한 통합 컬렉션",
+  "description": "Evidence-based systematic problem-solving system: A comprehensive collection combining thinking-framework (systematic thinking methodologies) and web-research (evidence gathering) for data-driven decision-making",
   "format": "claude",
   "author": "tempuss",
   "license": "MIT",
   "category": "frameworks",
   "tags": ["thinking", "research", "problem-solving", "systematic", "decision-making", "evidence-based"],
-  "repository": "https://github.com/tempuss/thinking-research-framework",
+  "repository": "https://github.com/tempuss/collections/thinking-research-framework",
 
   "collections": [
     {
-      "id": "evidence-based-problem-solving",
-      "name": "증거 기반 체계적 사고",
-      "description": "thinking-framework(15가지 체계적 사고법)와 web-research(증거 기반 검증)를 결합한 포괄적 문제 해결 시스템. 논리적 분석에 실제 데이터를 더하여 신뢰도 높은 의사결정을 지원합니다.",
+      "id": "thinking-research-framework",
+      "name": "thinking-research-framework",
+      "description": "A comprehensive problem-solving system combining thinking-framework (15 systematic thinking methodologies) with web-research (evidence-based validation). Adds real data to logical analysis to support high-confidence decision-making.",
       "version": "1.0.0",
       "category": "problem-solving",
       "tags": ["thinking", "research", "systematic", "decision-making", "framework", "evidence-based"],
-      "url": "https://tempuss.dev/thinking-research-framework",
+      "url": "https://github.com/tempuss/collections/thinking-research-framework",
 
       "packages": [
         {
           "packageId": "thinking-framework",
-          "version": "^2.1.0",
+          "version": "^1.0.1",
           "required": true,
-          "reason": "15가지 체계적 사고법 제공: 문제 정의, 근본원인 분석, 혁신, 전략 계획, 프로세스 개선, 의사결정, 종합"
+          "reason": "Provides 15 systematic thinking methodologies: problem definition, root cause analysis, innovation, strategic planning, process improvement, decision-making, and synthesis"
         },
         {
           "packageId": "web-research",
           "version": "^1.0.0",
           "required": true,
-          "reason": "증거 기반 검증: 시장 데이터, 기술 문서, 경쟁 분석, 사용자 리서치를 통한 현실 검증"
+          "reason": "Evidence-based validation: Market data, technical documentation, competitive analysis, and user research for real-world verification"
         }
       ],
 
       "keyFeatures": [
-        "15가지 증명된 사고법 + 증거 검증",
-        "문제 유형별 최적화된 리서치 전략",
-        "신뢰도 점수 계산 체계",
-        "실제 사용 사례와 워크플로우",
-        "의존성 없는 독립적 스킬 사용도 가능"
+        "15 proven thinking methodologies + evidence validation",
+        "Optimized research strategies by problem type",
+        "Confidence score calculation framework",
+        "Real-world case studies and workflows",
+        "Can be used independently without dependencies"
       ],
 
       "use_cases": [
-        "전략적 의사결정 (신뢰도 높은 근거 필요)",
-        "제품 개발 (시장 수요 검증)",
-        "기술 선택 (벤치마크 기반)",
-        "비즈니스 분석 (데이터 기반)",
-        "문제 해결 (체계적 + 증거 기반)"
+        "Strategic decision-making (requires high-confidence evidence)",
+        "Product development (market demand validation)",
+        "Technology selection (benchmark-based)",
+        "Business analysis (data-driven)",
+        "Problem-solving (systematic + evidence-based)"
       ]
     }
   ],
 
   "installation": {
-    "quick": "prpm install collections/evidence-based-problem-solving",
+    "quick": "prpm install collections/thinking-research-framework",
     "individual": [
       "prpm install thinking-framework",
       "prpm install web-research"
     ],
-    "note": "프레임워크 사용 방식:\n1. 컬렉션: 통합 워크플로우를 위해 둘 다 설치\n2. 개별: 필요에 따라 각각 독립적으로 사용"
+    "note": "Framework usage options:\n1. Collection: Install both for integrated workflow\n2. Individual: Use each independently as needed"
   }
 }
