@@ -15,7 +15,7 @@
       "id": "thinking-research-framework",
       "name": "thinking-research-framework",
       "description": "A comprehensive problem-solving system combining thinking-framework (15 systematic thinking methodologies) with web-research (evidence-based validation). Adds real data to logical analysis to support high-confidence decision-making.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "problem-solving",
       "tags": ["thinking", "research", "systematic", "decision-making", "framework", "evidence-based"],
       "url": "https://github.com/tempuss/collections/thinking-research-framework",
@@ -23,7 +23,7 @@
       "packages": [
         {
           "packageId": "thinking-framework",
-          "version": "^1.0.1",
+          "version": "^1.0.0",
           "required": true,
           "reason": "Provides 15 systematic thinking methodologies: problem definition, root cause analysis, innovation, strategic planning, process improvement, decision-making, and synthesis"
         },
