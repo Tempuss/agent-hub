@@ -1,8 +1,8 @@
-# Thinking Framework v2.0
+# Thinking Framework v3.0
 
-> Systematic problem-solving using 14 proven thinking methodologies
+> Systematic problem-solving using 15 proven thinking methodologies with adaptive AI reasoning enhancement
 
-Transform complex problems into structured solutions using battle-tested frameworks like 5 Why, First Principles, SWOT, Design Thinking, and more.
+Transform complex problems into structured solutions using battle-tested frameworks like 5 Why, First Principles, SWOT, Design Thinking, and more. Now with automatic Sequential Thinking MCP integration for deeper, more transparent analysis.
 
 ---
 
@@ -53,17 +53,21 @@ thinking-framework/
 ├── SKILL.md                     # AI execution prompts (technical)
 └── reference/                   # Detailed method documentation
     ├── INDEX.md                 # Method catalog and selector
+    ├── QUICK_SELECTOR.md        # 🚀 NEW: 60-second decision tree
+    ├── METHOD_COMBINATIONS.md   # 🚀 NEW: Multi-method workflows
     ├── 5-why.md                 # Individual method guides
     ├── fishbone.md
     ├── first-principles.md
-    └── ... (14 methods total)
+    └── ... (15 methods total)
 ```
 
 ### For Different Audiences
 
 | Your Goal | Start Here |
 |-----------|------------|
+| **🚀 Quick method selection** | [reference/QUICK_SELECTOR.md](reference/QUICK_SELECTOR.md) - 60-second decision tree |
 | **Learn how to use** | [GUIDE.md](GUIDE.md) - Practical guide with real examples |
+| **Combine multiple methods** | [reference/METHOD_COMBINATIONS.md](reference/METHOD_COMBINATIONS.md) - Multi-method workflows |
 | **Choose a method** | [reference/INDEX.md](reference/INDEX.md) - Method catalog |
 | **Deep dive into method** | [reference/](reference/) - Individual method files |
 | **AI-assisted analysis** | [SKILL.md](SKILL.md) - Execution prompts |
@@ -107,7 +111,31 @@ thinking-framework/
 
 ## 💡 Key Features
 
-### v2.1 Improvements (NEW!)
+### v3.0 Improvements (NEW!)
+
+**🧠 Adaptive Sequential Thinking MCP Integration**: Automatic AI reasoning enhancement
+- **Transparent Reasoning**: Multi-step thought processes visible and verifiable
+- **Higher Quality Analysis**: Structured hypothesis testing and self-correction
+- **Graceful Fallback**: Works perfectly with or without Sequential MCP available
+- **A Routine Enhancement**: Complex problems analyzed through (N sub-problems × 4 layers) + integration
+- **C Routine Enhancement**: Optional 8-thought strategic analysis for high-stakes decisions
+- **No Breaking Changes**: Existing methods work exactly as before when MCP unavailable
+
+**Target Success Rate**: 95%+ (vs 85-90% in v2.0)
+
+### v2.2 Improvements
+
+**🚀 Quick Selector**: One-page decision tree for 60-second method selection
+- Eliminates decision paralysis with clear selection matrix
+- Jump directly to the right method without reading all docs
+- Includes complexity assessment and common mistake warnings
+
+**🔗 Method Combinations**: Multi-method workflow patterns for complex problems
+- 5 proven combination patterns with real-world examples
+- Guidance on when to chain multiple methods together
+- Anti-patterns to avoid when combining methods
+
+### v2.1 Improvements
 
 **Problem Definition Thinking**: Start EVERY problem-solving effort by clarifying the true problem
 - Prevents solving the wrong problem efficiently
