@@ -1,6 +1,6 @@
 # Thinking Methods Reference - Index
 
-Complete catalog of 14 proven thinking methodologies for systematic problem-solving.
+Complete catalog of 15 proven thinking methodologies for systematic problem-solving.
 
 ---
 
@@ -10,6 +10,7 @@ Complete catalog of 14 proven thinking methodologies for systematic problem-solv
 
 | Problem Type | Recommended Methods |
 |--------------|-------------------|
+| **Problem Clarification** (Pre-requisite) | [Problem Definition](problem-definition.md) |
 | **Root Cause Analysis** | [5 Why](5-why.md) • [Fishbone](fishbone.md) |
 | **Creative Innovation** | [SCAMPER](scamper.md) • [TRIZ](triz.md) • [Design Thinking](design-thinking.md) |
 | **Strategic Planning** | [SWOT](swot.md) • [GAP Analysis](gap-analysis.md) |
@@ -23,16 +24,28 @@ Complete catalog of 14 proven thinking methodologies for systematic problem-solv
 
 | Context | Best Method | When to Use |
 |---------|------------|-------------|
+| **Any Major Problem** | [Problem Definition](problem-definition.md) | FIRST STEP before applying other methods |
 | **Urgent/Crisis** | [OODA Loop](ooda-loop.md), [5 Why](5-why.md) | Need fast decision cycle |
 | **Strategic** | [SWOT](swot.md), [First Principles](first-principles.md) | Deep analysis required |
-| **Team Brainstorm** | [Fishbone](fishbone.md), [Design Thinking](design-thinking.md) | Collaborative work |
-| **Solo Analysis** | [5 Why](5-why.md), [First Principles](first-principles.md) | Individual deep thinking |
+| **Team Brainstorm** | [Fishbone](fishbone.md), [Design Thinking](design-thinking.md), [Problem Definition](problem-definition.md) | Collaborative work |
+| **Solo Analysis** | [5 Why](5-why.md), [First Principles](first-principles.md), [Problem Definition](problem-definition.md) | Individual deep thinking |
 | **Data-Rich** | [Pareto](pareto.md), [DMAIC](dmaic.md) | Quantitative analysis |
-| **Qualitative** | [5 Why](5-why.md), [SCAMPER](scamper.md) | Limited data available |
+| **Qualitative** | [5 Why](5-why.md), [SCAMPER](scamper.md), [Problem Definition](problem-definition.md) | Limited data available |
 
 ---
 
 ## Complete Method Catalog
+
+### 0. Foundational Method (Use FIRST)
+
+#### [Problem Definition Thinking](problem-definition.md)
+- **Purpose**: Clearly define and clarify the true problem before solving
+- **Best for**: ANY major problem-solving effort (use before other methods)
+- **Time**: Quick (30-60 minutes for complex problems)
+- **Success rate**: 100% for preventing wasted effort on wrong problems
+- **Key Principle**: "All problem-solving begins with correctly defining the problem"
+
+---
 
 ### 1. Root Cause Analysis Methods
 
@@ -178,6 +191,7 @@ Based on v1.0 analysis of 20 executions:
 
 | Method | Success Context | Rate |
 |--------|----------------|------|
+| **Problem Definition** | **Pre-requisite for all problems** | **100%** |
 | 5 Why | root_cause_analysis | 100% |
 | Fishbone | root_cause_analysis | 100% |
 | First Principles | technical_problem | 100% |
@@ -192,6 +206,8 @@ Based on v1.0 analysis of 20 executions:
 | DMAIC | quality_control | High** |
 | Kepner-Tregoe | decision_making | Effective** |
 | Dialectic | synthesis | Effective** |
+
+**Key Insight**: Problem Definition prevents solving the wrong problem, making it the highest-ROI method. Use FIRST before applying other methods.
 
 *Requires 2x2 priority matrix for strategic decisions (33% failure without)
 **Context-dependent; avoid for creative innovation (0% success)
@@ -211,9 +227,31 @@ Based on v1.0 analysis of 20 executions:
 
 ## Version Information
 
-**Version**: 2.0.0
-**Last Updated**: 2025-11-06
+**Version**: 2.1.0 (NEW: Added Problem Definition as foundational method)
+**Last Updated**: 2025-11-07
 **Source**: Thinking Framework Skill
-**Total Methods**: 14
+**Total Methods**: 15 (1 foundational + 14 specialized)
 
 For detailed descriptions, examples, and step-by-step guides, see individual method files linked above.
+
+---
+
+## Recommended Workflow
+
+For ANY problem-solving effort, follow this sequence:
+
+1. **[Problem Definition](problem-definition.md)** ← START HERE (30-60 min)
+   - Clarify what the real problem is
+   - Uncover hidden assumptions
+   - Define success criteria
+
+2. **Select Appropriate Method** (based on problem type)
+   - Use [Problem Type Selector](#by-problem-type) above
+   - Apply selected method from this catalog
+
+3. **Execute & Validate**
+   - Follow method steps
+   - Measure outcomes against success criteria
+   - Reflect and iterate
+
+**This two-step approach prevents the most common failure: solving the wrong problem efficiently.**

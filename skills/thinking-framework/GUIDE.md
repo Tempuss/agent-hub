@@ -6,18 +6,36 @@
 
 ## What Is This?
 
-The Thinking Framework provides 14 proven problem-solving methods in a structured system. Instead of ad-hoc thinking, you'll systematically approach problems using battle-tested methodologies.
+The Thinking Framework provides 15 proven problem-solving methods in a structured system. Instead of ad-hoc thinking, you'll systematically approach problems using battle-tested methodologies.
 
-**When to use**: Complex problems, strategic decisions, root cause analysis, innovation challenges, process improvements.
+**Core principle**: "All problem-solving begins with correctly defining the problem." Use [Problem Definition](reference/problem-definition.md) FIRST, then select the appropriate specialized method.
 
-**When NOT to use**: Simple questions with obvious answers, straightforward tasks, basic information lookups.
+**When to use**: Complex problems, strategic decisions, root cause analysis, innovation challenges, process improvements, or anytime you want to ensure you're solving the RIGHT problem.
+
+**When NOT to use**: Simple questions with obvious answers, straightforward tasks, basic information lookups, or emergency situations requiring immediate action (use OODA Loop instead, then circle back to proper problem definition).
+
+---
+
+## The Starting Point: Problem Definition
+
+**BEFORE anything else**, clarify what the real problem is:
+
+→ **[Problem Definition Thinking](reference/problem-definition.md)**
+
+**Why first?** Most problem-solving failures come from solving the wrong problem. Spend 30-60 minutes clarifying:
+- Is this the real problem or a symptom?
+- What evidence supports this?
+- What are the hidden assumptions?
+- How will you measure success?
+
+**Example**: "Our API is slow" (symptom) → "Missing database index on user_id column" (real problem)
 
 ---
 
 ## Problem Type Selector
 
 ### 🔍 "I need to find WHY something happened"
-→ **Root Cause Analysis**
+→ **Root Cause Analysis** (use AFTER Problem Definition)
 
 **Start with**: [5 Why](reference/5-why.md) (single cause) or [Fishbone](reference/fishbone.md) (multiple factors)
 
@@ -202,6 +220,15 @@ Engineering problem with trade-offs? → TRIZ
 
 ## Common Mistakes and Solutions
 
+### Mistake 0: Skipping Problem Definition
+**Symptom**: Solving the problem perfectly but finding it was the wrong problem all along
+
+**Example**: Building a feature that technically solves the stated requirement but doesn't address the actual business need
+
+**Solution**: ALWAYS start with [Problem Definition](reference/problem-definition.md). Spend 30-60 minutes clarifying the real problem before picking a solution method. This prevents weeks of wasted effort.
+
+---
+
 ### Mistake 1: Using Wrong Method for Problem Type
 **Symptom**: Method feels forced, results unsatisfying
 
@@ -286,6 +313,7 @@ Engineering problem with trade-offs? → TRIZ
 
 | Your Situation | Use This | Read |
 |----------------|----------|------|
+| **ANY problem** (FIRST STEP) | Problem Definition | [Foundational method](reference/INDEX.md#0-foundational-method-use-first) |
 | Need to find root cause | 5 Why or Fishbone | [Root cause methods](reference/INDEX.md#1-root-cause-analysis-methods) |
 | Need to innovate | SCAMPER, TRIZ, Design Thinking, First Principles | [Innovation methods](reference/INDEX.md#2-innovation--breakthrough-methods) |
 | Planning strategy | SWOT + GAP (with 2x2 matrix!) | [Strategic methods](reference/INDEX.md#3-strategic-planning-methods) |
@@ -304,7 +332,8 @@ Engineering problem with trade-offs? → TRIZ
 
 ---
 
-**Version**: 2.0.0
-**Last Updated**: 2025-11-06
+**Version**: 2.1.0 (NEW: Problem Definition method added as foundational starting point)
+**Last Updated**: 2025-11-07
 **Skill Type**: Practical Guide
 **Target Audience**: Practitioners and users
+**Key Enhancement**: Problem Definition method ensures you solve the RIGHT problem before choosing a solution method

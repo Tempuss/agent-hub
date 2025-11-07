@@ -8,17 +8,26 @@ Transform complex problems into structured solutions using battle-tested framewo
 
 ## 🚀 Quick Start (5 minutes)
 
-### 1. Identify Your Problem Type
+### 1. Start With Problem Definition
+
+**FIRST STEP**: Clarify what the real problem is using [Problem Definition](reference/problem-definition.md)
+
+**Why?** Most problem-solving failures come from solving the wrong problem. Spend 30-60 minutes:
+- Understanding if this is the real problem or a symptom
+- Uncovering hidden assumptions
+- Defining success criteria
+
+### 2. Identify Your Problem Type
 
 **Got a specific problem?** Jump to the [Problem Type Selector](GUIDE.md#problem-type-selector) in the User Guide.
 
-**Common scenarios**:
+**Common scenarios** (after Problem Definition):
 - 🔍 **"Why did this happen?"** → [5 Why](reference/5-why.md) or [Fishbone](reference/fishbone.md)
 - 💡 **"How can I innovate?"** → [SCAMPER](reference/scamper.md), [First Principles](reference/first-principles.md), [TRIZ](reference/triz.md)
 - 🎯 **"What's my strategy?"** → [SWOT](reference/swot.md) + [GAP Analysis](reference/gap-analysis.md)
 - ⚙️ **"How to improve this?"** → [Pareto](reference/pareto.md), [PDCA](reference/pdca.md)
 
-### 2. Apply the Method
+### 3. Apply the Method
 
 Each method guide includes:
 - Clear definition
@@ -26,7 +35,7 @@ Each method guide includes:
 - Real-world examples
 - When to use / when to avoid
 
-### 3. Reflect and Iterate
+### 4. Reflect and Iterate
 
 After applying a method:
 - What worked well?
@@ -63,7 +72,10 @@ thinking-framework/
 
 ## 🎯 What's Included
 
-### 14 Proven Thinking Methods
+### 15 Proven Thinking Methods
+
+**Foundational Method (Start Here)**
+- [Problem Definition](reference/problem-definition.md) - Clarify the true problem before solving
 
 **Root Cause Analysis**
 - [5 Why](reference/5-why.md) - Drill down causal chains
@@ -94,6 +106,14 @@ thinking-framework/
 ---
 
 ## 💡 Key Features
+
+### v2.1 Improvements (NEW!)
+
+**Problem Definition Thinking**: Start EVERY problem-solving effort by clarifying the true problem
+- Prevents solving the wrong problem efficiently
+- Uncovers hidden assumptions
+- Creates clear success criteria
+- Saves weeks of wasted effort
 
 ### v2.0 Improvements
 
