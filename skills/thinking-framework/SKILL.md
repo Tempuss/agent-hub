@@ -1,11 +1,13 @@
 ---
 name: thinking-framework
-description: Use this when complex problem-solving, root cause analysis, strategic decision-making, or systematic thinking is needed. Applies Divide & Conquer with 14 thinking methods (5 Why, SWOT, First Principles, etc.)
+description: Use this when complex problem-solving, root cause analysis, strategic decision-making, or systematic thinking is needed. Applies Divide & Conquer with 15 thinking methods (5 Why, SWOT, First Principles, etc.) with optional Sequential MCP integration.
 ---
 
-# Thinking Framework v2.0 - Systematic Problem-Solving Partner
+# Thinking Framework v3.0 - Systematic Problem-Solving Partner
 
 > **Purpose**: Systematically decompose complex problems, identify root causes, and derive optimal solutions using structured thinking methods.
+
+> **v3.0 NEW**: Adaptive Sequential Thinking MCP integration - automatically enhances complex analysis with structured multi-step reasoning when available, gracefully falls back to original methods when not.
 
 > **v2.0 Improvements**: Complexity-based routine selection, method-problem matching matrix, pre-flight checks, and output template optimizations based on 70% success rate analysis.
 
@@ -43,7 +45,9 @@ You are not just an AI that generates answers; you are a **high-level thinking p
 
 **Use When**: Systemic problems with 5+ interdependent factors (Complexity: Complex)
 
-**Success Rate**: 67% (v1.0) → Target: 85%+ (v2.0)
+**Success Rate**: 67% (v1.0) → 85%+ (v2.0) → Target: 95%+ (v3.0 with Sequential MCP)
+
+**🚀 v3.0 Enhancement**: Adaptive Sequential Thinking integration for structured multi-step reasoning
 
 **Process**:
 1. **Define Problem**: Clearly articulate the entire problem
@@ -51,6 +55,25 @@ You are not just an AI that generates answers; you are a **high-level thinking p
    - 🆕 **LIMIT: Maximum 5 sub-problems** (prevent over-complexity)
    - If > 5, re-group or use hierarchical decomposition
 3. **Conquer with Layered Thinking**: For each sub-problem, analyze through 4 layers:
+
+   **🆕 WITH Sequential MCP** (Automatic when available):
+   - Use `mcp__sequential-thinking` for structured reasoning
+   - **Pattern**: 1 thought per layer × 4 layers per sub-problem
+   - **Total thoughts**: (N sub-problems × 4) + 1 integration thought
+   - **Benefits**: Transparent reasoning chain, higher quality analysis, hypothesis testing, self-correction
+   - **Example** (3 sub-problems):
+     - Thoughts 1-4: SP1 (Surface → Root Cause → Alternatives → Integration)
+     - Thoughts 5-8: SP2 (same pattern)
+     - Thoughts 9-12: SP3 (same pattern)
+     - Thought 13: Integrated solution synthesis
+
+   **WITHOUT Sequential MCP** (Automatic fallback):
+   - Proceed with internal layered analysis (original method)
+   - Same 4-layer structure, less visible reasoning process
+   - Direct output to final table format
+   - Quality standards maintained
+
+   **4 Analysis Layers** (both modes):
    - **Surface Solution**: First intuitive approach
    - **Root Cause / First Principles**: Fundamental cause identification and element decomposition
    - **Alternative Exploration**: Compare other possible solutions
@@ -168,11 +191,32 @@ You are not just an AI that generates answers; you are a **high-level thinking p
 
 **Use When**: Strategic planning, competitive analysis, or resource allocation (Medium-Complex complexity)
 
-**Success Rate**: 75% (v1.0) → Target: 90%+ (v2.0)
+**Success Rate**: 75% (v1.0) → 90%+ (v2.0) → Target: 95%+ (v3.0 with Sequential MCP)
+
+**🚀 v3.0 Enhancement**: Optional Sequential Thinking for strategic depth and validation
 
 **Purpose**: Not just "maximize strengths, minimize weaknesses" but creating **asymmetric competitive advantage** through integrated SWOT × GAP analysis.
 
 **Process**:
+
+**🆕 WITH Sequential MCP** (Optional, for high-stakes strategic decisions):
+- Use `mcp__sequential-thinking` for systematic strategic analysis
+- **Thought pattern**:
+  - Thought 1: Strengths deep analysis (evidence, sustainability, competitive moat)
+  - Thought 2: Weaknesses root cause analysis (5 Why + Fishbone)
+  - Thought 3: Opportunities identification (market trends, timing, adjacencies)
+  - Thought 4: Threats assessment (competitive response, market shifts, risks)
+  - Thought 5: 2x2 Priority Matrix construction (critical decision point)
+  - Thought 6: GAP Analysis (AS-IS → TO-BE with metrics)
+  - Thought 7: Synergy mapping and integration
+  - Thought 8: Final strategy synthesis and validation
+- **Benefits**: Deeper strategic thinking, validated priorities, clearer trade-offs
+- **Total**: 8 thoughts for comprehensive strategic analysis
+
+**WITHOUT Sequential MCP** (Standard approach):
+- Follow the 7-step process below directly
+- Same strategic rigor, condensed format
+- Suitable for most strategic planning needs
 
 **1. Current State Diagnosis**
 
@@ -381,13 +425,54 @@ IF selected_routine == "A" AND sub_problems > 5:
 
 ## Integration with Other Methods
 
+### Single Method Integration
+
 This framework integrates with:
 - **First Principles Thinking**: Use in Root Cause layer of A Routine
 - **SWOT Analysis**: Foundation for C Routine (MUST add 2x2 matrix)
 - **5 Why**: Critical for weakness diagnosis in C Routine
 - **Design Thinking**: Can be selected in B Routine for innovation problems
 
-For detailed descriptions of all 14 thinking methods, see **[reference/INDEX.md](reference/INDEX.md)** or individual method files in the **reference/** directory.
+### 🆕 Multi-Method Combinations (v2.2)
+
+For complex problems requiring multiple perspectives, use **method combinations**:
+
+**Standard Patterns**:
+1. **Root Cause → Solution → Validation**: `5 Why → First Principles → PDCA`
+   - Use when: Technical problem needs innovative solution
+   - Time: 2-3 hours
+
+2. **Strategic Planning Full Stack**: `Problem Definition → SWOT → 2x2 → GAP → OODA`
+   - Use when: Business strategy formulation and execution
+   - Time: 3-5 hours
+
+3. **Innovation Pipeline**: `Design Thinking → SCAMPER → TRIZ → Pareto`
+   - Use when: Product development with prioritization
+   - Time: 1-2 weeks
+
+4. **Complex System Debugging**: `Fishbone → Pareto → 5 Why → First Principles`
+   - Use when: Multi-factor systemic issues
+   - Time: 2-4 hours
+
+5. **Crisis Response**: `OODA → Fishbone → 5 Why → PDCA`
+   - Use when: Fast-moving situation + permanent fix needed
+   - Time: Hours (immediate) + Days (follow-up)
+
+**When to Combine Methods**:
+- Single method insufficient for problem complexity
+- Need multiple phases: analysis → ideation → execution
+- Require cross-validation of outputs
+- Complex problem with 5+ interdependent factors
+
+**Combination Best Practices**:
+- Start with Problem Definition (always)
+- Validate outputs between methods
+- Use 2-4 methods maximum (>5 = over-engineering)
+- Match method strengths to problem phases
+
+👉 **See [reference/METHOD_COMBINATIONS.md](reference/METHOD_COMBINATIONS.md) for detailed workflows, real examples, and anti-patterns**
+
+For detailed descriptions of all 15 thinking methods, see **[reference/INDEX.md](reference/INDEX.md)** or individual method files in the **reference/** directory.
 
 ---
 

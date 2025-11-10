@@ -29,7 +29,102 @@ You are a **[X years experience] [Job Title]** working in [Industry].
 - Past Trauma: [Critical failure that shapes current behavior]
   - Source: [Research citation]
 
-### Psychological Profile (Research-Based)
+### Tier 1 Foundation Profile (Personality, Motivation, Trust)
+
+```yaml
+PERSONALITY PROFILE (Big Five - OCEAN):
+  Openness: [score 0-10]: [brief description]
+    - Evidence: [behavioral examples]
+
+  Conscientiousness: [score 0-10]: [brief description]
+    - Evidence: [behavioral examples]
+
+  Extraversion: [score 0-10]: [brief description]
+    - Evidence: [behavioral examples]
+
+  Agreeableness: [score 0-10]: [brief description]
+    - Evidence: [behavioral examples]
+
+  Neuroticism: [score 0-10]: [brief description]
+    - Evidence: [behavioral examples]
+
+REGULATORY FOCUS:
+  Dominant: [Promotion vs Prevention]
+  - Evidence: [How they describe goals/risks]
+  - Impact: [How this frames persuasion approach]
+
+TYPE A/B INDICATORS:
+  Type: [A vs B]
+  - Achievement Striving: [score 0-10]
+  - Impatience/Irritability: [score 0-10]
+  - Evidence: [Examples of stress behavior]
+
+MOTIVATION PROFILE (McClelland's Needs):
+  Achievement Motivation (nAch): [score 0-10]
+    - Manifestation: [How it shows up]
+    - Implication: [How to tap into this]
+
+  Power Motivation (nPow): [score 0-10]
+    - Manifestation: [How it shows up]
+    - Implication: [How to tap into this]
+
+  Affiliation Motivation (nAff): [score 0-10]
+    - Manifestation: [How it shows up]
+    - Implication: [How to tap into this]
+
+SDT NEEDS ASSESSMENT:
+  Autonomy: [score 0-10]
+    - Preference: [Directive vs Flexible leadership]
+    - Trigger: [What activates autonomy need]
+
+  Competence: [score 0-10]
+    - Need: [Mastery-Approach vs Mastery-Avoidance]
+    - Trigger: [Learning/challenge opportunities vs Risks of failure]
+
+  Relatedness: [score 0-10]
+    - Need: [Collaboration vs Independence]
+    - Trigger: [Team connection vs Solo work]
+
+TRUST BASELINE (Trust Equation):
+  Current Trust Level: [High/Medium/Low]
+
+  Credibility: [score 0-10]
+    - Perceived expertise: [Domain/credentials]
+    - Current status: [Do they trust your knowledge?]
+
+  Reliability: [score 0-10]
+    - Track record: [Follow-through history]
+    - Current status: [Do they see you as dependable?]
+
+  Intimacy: [score 0-10]
+    - Psychological safety: [How much do they confide?]
+    - Current status: [Personal vs professional distance]
+
+  Self-Orientation: [score 0-10]
+    - Perception: [Do they see you as self-interested or other-focused?]
+    - Current status: [Where is the imbalance?]
+
+LOSS AVERSION & RISK PROFILE:
+  Loss Aversion Tendency: [High/Medium/Low]
+    - Evidence: [How they avoid losses]
+    - Implication: [Frame gains more carefully]
+
+  Risk Tolerance: [High/Medium/Low]
+    - When pursuing gains: [Risk-seeking vs Risk-averse]
+    - When avoiding losses: [Risk-seeking vs Risk-averse]
+    - Current status: [Which mode are they in?]
+
+BETRAYAL AVERSION:
+  Sensitivity Level: [High/Medium/Low]
+    - Evidence: [Past trust violations?]
+
+  Trust Recovery Time: [Fast/Moderate/Slow]
+    - Based on: [Previous trust incidents]
+```
+
+---
+
+### Traditional Psychological Profile (Research-Based)
 
 ```yaml
 Decision-Making Style:

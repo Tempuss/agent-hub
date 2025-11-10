@@ -28,7 +28,7 @@ Create an AI persona for:
 Claude automatically:
 1. Runs 32-48 web searches
 2. Cross-verifies 3+ sources
-3. Applies 7 psychological frameworks
+3. Applies 10 psychological frameworks (Tier 1-3)
 4. Generates persona with citations
 5. Self-refines (3 rounds, 90%+ quality)
 
@@ -37,13 +37,15 @@ Claude automatically:
 4 files per persona:
 1. `web-search-results.md` - Raw research data (32-48 searches)
 2. `research-findings.md` - Cross-verified insights (3+ sources)
-3. `psychology-profile.md` - 7-framework analysis
+3. `psychology-profile.md` - 10-framework analysis (Tier 1-3: Foundation + Core + Context)
 4. `persona-prompt.md` - Final usable persona (ready to activate)
 
 ## Key Features
 
 ✅ **Research-backed** (not guesswork): 32-48 searches, 3+ independent sources
-✅ **7 psychological frameworks**: Kahneman, Cialdini, Voss, Navarro, Ariely, Evolution, Organization
+✅ **10 psychological frameworks** (3-tier system):
+   - **Tier 1 (Foundation)**: Personality (Big Five), Motivation (SDT/McClelland), Trust (Trust Equation)
+   - **Core (Tier 2)**: Kahneman, Cialdini, Voss, Navarro, Ariely, Evolution, Organization
 ✅ **Hidden motivations revealed**: What stakeholders won't say out loud
 ✅ **Self-refining**: 3-round quality assurance (90%+ target)
 ✅ **Actionable**: Specific persuasion tactics, red flags, alternatives
@@ -95,7 +97,7 @@ Claude automatically:
 ## Files Guide
 
 - `Skill.md` - Main skill documentation (quick reference, examples)
-- `REFERENCE.md` - Detailed 7-framework guide + persona template
+- `REFERENCE.md` - Detailed 10-framework guide (Tier 1-3) + persona template
 - `EXAMPLES.md` - 3 complete walkthroughs (CISO, VC, Hospital)
 - `README.md` - This file (installation & quick start)
 

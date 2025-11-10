@@ -1,0 +1,64 @@
+{
+  "id": "thinking-research-framework",
+  "name": "Thinking + Research Framework",
+  "version": "1.0.0",
+  "description": "Evidence-based systematic problem-solving system: A comprehensive collection combining thinking-framework (systematic thinking methodologies) and web-research (evidence gathering) for data-driven decision-making",
+  "format": "claude",
+  "author": "tempuss",
+  "license": "MIT",
+  "category": "frameworks",
+  "tags": ["thinking", "research", "problem-solving", "systematic", "decision-making", "evidence-based"],
+  "repository": "https://github.com/tempuss/collections/thinking-research-framework",
+
+  "collections": [
+    {
+      "id": "thinking-research-framework",
+      "name": "thinking-research-framework",
+      "description": "A comprehensive problem-solving system combining thinking-framework (15 systematic thinking methodologies) with web-research (evidence-based validation). Adds real data to logical analysis to support high-confidence decision-making.",
+      "version": "1.0.1",
+      "category": "problem-solving",
+      "tags": ["thinking", "research", "systematic", "decision-making", "framework", "evidence-based"],
+      "url": "https://github.com/tempuss/collections/thinking-research-framework",
+
+      "packages": [
+        {
+          "packageId": "thinking-framework",
+          "version": "^1.0.0",
+          "required": true,
+          "reason": "Provides 15 systematic thinking methodologies: problem definition, root cause analysis, innovation, strategic planning, process improvement, decision-making, and synthesis"
+        },
+        {
+          "packageId": "web-research",
+          "version": "^1.0.0",
+          "required": true,
+          "reason": "Evidence-based validation: Market data, technical documentation, competitive analysis, and user research for real-world verification"
+        }
+      ],
+
+      "keyFeatures": [
+        "15 proven thinking methodologies + evidence validation",
+        "Optimized research strategies by problem type",
+        "Confidence score calculation framework",
+        "Real-world case studies and workflows",
+        "Can be used independently without dependencies"
+      ],
+
+      "use_cases": [
+        "Strategic decision-making (requires high-confidence evidence)",
+        "Product development (market demand validation)",
+        "Technology selection (benchmark-based)",
+        "Business analysis (data-driven)",
+        "Problem-solving (systematic + evidence-based)"
+      ]
+    }
+  ],
+
+  "installation": {
+    "quick": "prpm install collections/thinking-research-framework",
+    "individual": [
+      "prpm install thinking-framework",
+      "prpm install web-research"
+    ],
+    "note": "Framework usage options:\n1. Collection: Install both for integrated workflow\n2. Individual: Use each independently as needed"
+  }
+}
