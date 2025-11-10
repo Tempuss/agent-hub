@@ -31,7 +31,7 @@ Create an AI persona for:
 **What happens automatically**:
 1. 32-48 web searches across 4 categories
 2. Cross-verification of 3+ independent sources
-3. 7-framework psychological analysis
+3. 10-framework psychological analysis (Tier 1-3 foundation system)
 4. Complete persona with research citations
 5. Self-refinement through 3 quality rounds
 
@@ -111,22 +111,30 @@ Save analysis to psychology profile.
 
 ### Phase 3: Psychology (20 min)
 
-**STEP 5 → Apply 7 Frameworks**
+**STEP 5 → Apply 10 Frameworks (Tier 1 Foundation + Core Frameworks)**
 
 Execute this prompt:
 ```
-Apply all 7 psychological frameworks to [Role]:
+Apply all 10 psychological frameworks to [Role]:
 
-Read frameworks from:
-- frameworks/01_kahneman.md → System 1/2, biases
-- frameworks/02_cialdini.md → 6 persuasion principles (rank them)
-- frameworks/03_voss.md → Hidden needs, black swans
-- frameworks/04_navarro.md → Stress triggers, comfort zones
-- frameworks/05_ariely.md → Irrationality patterns
+TIER 1 FOUNDATION (Critical base layer - read first):
+- frameworks/08_motivational_psychology.md → SDT, McClelland's needs, goal orientation
+- frameworks/09_personality_psychology.md → Big Five/OCEAN, regulatory focus, Type A/B
+- frameworks/10_trust_risk_psychology.md → Trust equation, loss aversion, betrayal sensitivity
+
+Then apply CORE FRAMEWORKS with Tier 1 foundation context:
+- frameworks/01_kahneman.md → System 1/2, biases (contextualized by personality)
+- frameworks/02_cialdini.md → 6 persuasion principles, ranked by motivation profile
+- frameworks/03_voss.md → Hidden needs, black swans (aligned with trust baseline)
+- frameworks/04_navarro.md → Stress triggers, comfort zones (type A/B based)
+- frameworks/05_ariely.md → Irrationality patterns (personality-driven)
 - frameworks/06_evolution.md → Primal drives (survival, status, tribal)
 - frameworks/07_organization.md → Power structure, stakeholders
 
-Output template from: frameworks/00_integration.md
+Integration approach:
+- First establish WHO they are (Personality), WHAT drives them (Motivation), SAFETY needs (Trust)
+- Then apply remaining frameworks contextualized by Tier 1 foundation
+- Use frameworks/00_integration.md for weighted importance and integration logic
 
 Save to: research/[role-name]/psychology-profile.md
 ```
@@ -135,26 +143,33 @@ Save to: research/[role-name]/psychology-profile.md
 
 Execute this prompt:
 ```
-Generate comprehensive profile with:
+Generate comprehensive profile with Tier 1 foundation + analysis:
 
-Core Fears (Top 3 with % confidence):
-1. [Fear] (X%) - Evidence: "[Quote]" (Source)
+TIER 1 FOUNDATION (WHO they are fundamentally):
+- Personality (Big Five): Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism
+- Motivation (McClelland): Achievement (nAch), Power (nPow), Affiliation (nAff)
+- Trust Baseline: Current trust level, credibility, reliability, intimacy, self-orientation
+
+Core Fears (Top 3 with % confidence, grounded in Tier 1):
+1. [Fear] (X%) - Evidence: "[Quote]" (Source) - Tier 1 drivers: [personality/motivation/trust factors]
 2. [Fear] (Y%) - Evidence: "[Quote]" (Source)
 3. [Fear] (Z%) - Evidence: "[Quote]" (Source)
 
-Core Motivations (Top 3 with % confidence):
+Core Motivations (Top 3 with % confidence, aligned with motivation profile):
 1. [Motivation] (X%) - Evidence + Implication
 2. [Motivation] (Y%) - Evidence + Implication
 3. [Motivation] (Z%) - Evidence + Implication
 
-Decision Style Prediction:
+Decision Style Prediction (contextualized by personality):
 - System 1 (Emotion): X%
 - System 2 (Logic): Y%
 - Primary bias: [Bias name]
+- Personality drivers: [How Big Five and regulatory focus shape decision-making]
 
-Top 2 Persuasion Levers:
-1. [Cialdini principle] (X%)
-2. [Cialdini principle] (Y%)
+Top 3 Persuasion Levers (ranked by motivation + personality fit):
+1. [Cialdini principle] (X%) - Why effective for [personality/motivation profile]
+2. [Cialdini principle] (Y%) - Why effective for this role
+3. [Cialdini principle] (Z%) - Why effective for this role
 ```
 
 ---
@@ -188,21 +203,25 @@ Self-refine persona through 3 rounds:
 Round 1 - Evidence Check:
 [ ] 3+ sources per major claim?
 [ ] 5+ field testimonials?
-[ ] All 7 frameworks applied?
+[ ] All 10 frameworks applied (Tier 1 + 7 core)?
+[ ] Tier 1 foundation explicitly established (personality/motivation/trust)?
 
 Round 2 - Quality Rubric (50 points):
 [ ] Research quality (10 pts)
 [ ] Analysis depth (10 pts)
-[ ] Psychological insight (15 pts)
-[ ] Actionability (10 pts)
+[ ] Tier 1 foundation integration (5 pts) - NEW
+[ ] Psychological insight (15 pts) - includes Tier 1 contextualization
+[ ] Actionability (10 pts) - aligned with psychological profile
 [ ] Citations (5 pts)
 
 Round 3 - Final Polish:
 [ ] Confidence levels accurate?
-[ ] Tactical applications clear?
+[ ] Tier 1 foundation (personality/motivation/trust) clearly articulated?
+[ ] Framework integration shows how Tier 1 shapes other frameworks?
+[ ] Tactical applications clear and grounded in psychology?
 [ ] Alternative solutions provided?
 
-Target: 45+/50 points (90%+)
+Target: 45+/50 points (90%+) with full Tier 1 foundation integration
 ```
 
 ---
@@ -252,6 +271,13 @@ Goal: Win investment
 ## 📚 Reference Documentation
 
 **Framework Details** (when you need deep dives):
+
+**TIER 1 FOUNDATION (Read first)**:
+- `frameworks/08_motivational_psychology.md` - Motivation drivers (SDT, McClelland, goal orientation)
+- `frameworks/09_personality_psychology.md` - Personality profile (Big Five, regulatory focus, Type A/B)
+- `frameworks/10_trust_risk_psychology.md` - Trust foundation (trust equation, loss aversion, betrayal sensitivity)
+
+**CORE FRAMEWORKS (Read with Tier 1 context)**:
 - `frameworks/01_kahneman.md` - Cognitive biases, System 1/2
 - `frameworks/02_cialdini.md` - 6 persuasion principles
 - `frameworks/03_voss.md` - Tactical empathy, hidden needs
@@ -259,7 +285,9 @@ Goal: Win investment
 - `frameworks/05_ariely.md` - Predictable irrationality
 - `frameworks/06_evolution.md` - Primal drives
 - `frameworks/07_organization.md` - Power structures
-- `frameworks/00_integration.md` - How to apply all 7
+
+**INTEGRATION GUIDE**:
+- `frameworks/00_integration.md` - How to apply Tier 1 + all 7 core frameworks together
 
 **Templates**:
 - `templates/persona-prompt.md` - Complete prompt structure
